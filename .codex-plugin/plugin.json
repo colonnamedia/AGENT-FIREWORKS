@@ -1,0 +1,18 @@
+{
+  "name": "agent-fireworks",
+  "version": "0.1.0",
+  "description": "Build, duplicate, configure, and hand off Colonna Media industry websites.",
+  "author": {
+    "name": "Colonna Media LLC"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AGENT FIREWORKS",
+    "shortDescription": "Build and duplicate industry websites.",
+    "longDescription": "AGENT FIREWORKS creates separate client repositories from approved templates or new designs, configures selected integrations, commits and verifies the project, and generates FIREWORKS-PROJECT.md for a dedicated follow-up chat.",
+    "developerName": "Colonna Media LLC",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Build or duplicate an industry website, commit the working project, and create its FIREWORKS-PROJECT.md handoff."
+  }
+}
