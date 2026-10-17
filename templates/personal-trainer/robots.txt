@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://form-and-fire-personal-training.vercel.app/sitemap.xml
