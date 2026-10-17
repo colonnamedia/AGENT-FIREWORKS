@@ -2,7 +2,7 @@
 
 ## Template and source
 
-Primary industry: water damage restoration. Related: mitigation, structural drying, commercial property recovery and restoration contractors after changing actual service scope. Repository `colonnamedia/AGENT-FIREWORKS`, directory `templates/water-restoration`, production branch `main`. Hosted on Vercel project `fireworks-water-restoration`. Exact deployment and commit should be recorded after verified publication.
+Primary industry: water damage restoration. Related: mitigation, structural drying, commercial property recovery and restoration contractors after changing actual service scope. Repository `colonnamedia/AGENT-FIREWORKS`, directory `templates/water-restoration`, production branch `main`. Hosted on Vercel project `fireworks-water-restoration`. Source commit `672470c1025201b5dfe0481cbb0879d030286c1d`; production deployment `dpl_GdbXvSRiFESdz7eK6yoEefXTrosS` at https://fireworks-water-restoration.vercel.app/. Storefront seed commit `e6871981d1924fcaad5d192b1d188d5ec0ed0e13`.
 
 This is a fictional Pittsburgh-area demo. Its business name, generated photographs, area, service language and process are illustrative. No 24/7 availability, response guarantee, credential, completed project, insurance coverage, outcome or customer review is claimed.
 
@@ -30,7 +30,7 @@ Recommended build **$1,999** for six pages, distinct residential/commercial rout
 
 Unique editable titles and descriptions, headings, canonical paths, internal links, WebPage schema, local context, alt text and optimized WebP. Demo stays noindex with X-Robots-Tag. Add verified business structured data and genuine service area information for an actual launch, without city clones or rankings claims.
 
-Build HTML with `python build.py`. Check all pages, links, image loading, mobile navigation, form validation and local-only result, Vercel production and storefront price before marking ready. Future hero directions: commercial facilities technician, neutral daylight drying setup, property manager consultation. Reuse workflow; do not create cosmetic duplicates.
+Build HTML with `python build.py`. Six generated pages passed title, heading, metadata, internal link and asset checks; JavaScript passed `node --check`. Production pages and hero returned HTTP 200, and desktop home and assessment layouts were visually inspected. The form handler prevents default submission and renders a local-only result. Verify a completed browser submission and narrow mobile layout before client launch; confirm the storefront price on the live deployment. Future hero directions: commercial facilities technician, neutral daylight drying setup, property manager consultation. Reuse workflow; do not create cosmetic duplicates.
 
 ## Next chat
 
