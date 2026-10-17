@@ -48,3 +48,13 @@ The first hero is an original AI-generated image of an adult trainer coaching an
 - Preview: https://form-and-fire-personal-training.vercel.app
 - Storefront slug: `form-fire-personal-training`
 - Source: `templates/personal-trainer/` in `colonnamedia/AGENT-FIREWORKS`
+
+
+## Build and verification
+
+- Source build commit: `59e6047f339269ea056700af23364b512b5d0bd2`
+- Storefront publication commit: `0ea3dd258f3378ca6e6b0f00336cdc6729ac72c7`
+- Vercel production project: `form-and-fire-personal-training`
+- Automated test: passed for seven pages, internal routes, metadata, safe-demo language, stacked pricing, and optimized hero
+- Live HTTP verification: Home, Coaching, About, Pricing, Results, FAQ, Start, and hero image returned 200
+- Browser verification: desktop hero, navigation, stacked price presentation, completed safe inquiry result, storefront Featured/Available state, preview image, detail modal, and checkout pricing
