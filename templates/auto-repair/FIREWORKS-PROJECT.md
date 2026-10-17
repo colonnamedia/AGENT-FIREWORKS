@@ -4,8 +4,8 @@
 
 - Primary industry: auto repair; adaptable to tire shops, vehicle inspections and specialty repair after replacing services, content and imagery.
 - Fictional sample brand and Pittsburgh-area context. Generated imagery is illustrative. No real credentials, reviews, hours, coverage, pricing or warranty claims.
-- Repository: `colonnamedia/AGENT-FIREWORKS`, directory `templates/auto-repair`, branch `main`. Implementation and handoff commit: record from Git history after publication.
-- Host: Vercel project `fireworks-auto-repair`; intended demo URL `https://fireworks-auto-repair.vercel.app/`. Verify live deployment and storefront before treating as published.
+- Repository: `colonnamedia/AGENT-FIREWORKS`, directory `templates/auto-repair`, branch `main`. Implementation commit: `b20534c8534a9bad78cf1efcfef95a42f6f88545`. Handoff publication update: see subsequent commit history.
+- Host: Vercel project `fireworks-auto-repair`; production demo URL `https://fireworks-auto-repair.vercel.app/` (Vercel deployment `dpl_6eVr8gRe9a1FnrfU2TsayN4dNyiU`, READY from implementation commit).
 
 ## Pages and workflow
 
@@ -31,7 +31,7 @@ Recommended build: **$1,699**, justified by five pages, four detailed service pa
 
 Editable unique titles, descriptions, headings, canonical paths, OG/Twitter metadata, internal links, semantic markup, alt text, optimized local WebP and WebPage schema. Demo is `noindex`; real AutomotiveBusiness/AutoRepair schema requires verified address, phone and hours. No ranking promises or city-name duplicate pages.
 
-Run `python build.py` after source changes. Check five routes, internal links, local hero image, form required/pattern validation, mobile menu, and demo-only message. Record production URL, deployment status, storefront status and exact commit after verification. Until checked, these remain unverified.
+Run `python build.py` after source changes. Local QA passed for five pages' titles, headings, metadata, internal links, image paths and JavaScript syntax. Production requests returned HTTP 200 for all five routes, hero WebP, CSS and JS on October 16, 2026. Vercel READY points to implementation commit. Form is local-only by source inspection; mobile menu and layout need visual browser review. Storefront seed commits `e9c74c8a4bc7deefd520b11537f2442f7ba015f0` and SQL correction `d432031bcf395fbfeb4b02c285f3bb1c5b2c4eb4` were pushed to `colonnamedia/fire-works-web-BASE44`; live storefront and checkout remain unverified until its backend deploys.
 
 ## Future visual variants and next chat
 
