@@ -2,7 +2,7 @@
 
 ## Identity and source
 
-Primary industry: tattoo studio. Adaptable to piercing or beauty studios only after changing intake, health/privacy rules and client-specific policies. Repository `colonnamedia/AGENT-FIREWORKS`, directory `templates/tattoo-studio`, production branch `main`. Host: Vercel project `fireworks-tattoo-studio`. Record deployment and commit after verified publication.
+Primary industry: tattoo studio. Adaptable to piercing or beauty studios only after changing intake, health/privacy rules and client-specific policies. Repository `colonnamedia/AGENT-FIREWORKS`, directory `templates/tattoo-studio`, production branch `main`. Host: Vercel project `fireworks-tattoo-studio`. Source commit `01aaf71fcbe8bfd39a8d67eb67659a24760d29c1`; production deployment `dpl_41Ua9QwTdK46s9Khod4NT1a4cV9r` at https://fireworks-tattoo-studio.vercel.app/. Storefront seed commit `e6871981d1924fcaad5d192b1d188d5ec0ed0e13`.
 
 Fictional sample Pittsburgh studio. Artist roles, generated art images, policies and geography are placeholders, not actual staff, healed customer outcomes, credentials or available appointments. No real testimonials or certifications are claimed.
 
@@ -30,7 +30,7 @@ Recommended build **$1,799** for five pages, artist matching, galleries, consult
 
 Unique editable titles/descriptions/headings/canonicals, internal links, optimized WebP, alt text, mobile layout and WebPage schema. Demo is noindex with X-Robots-Tag. Add verified TattooParlor/LocalBusiness structured data when actual address, phone and hours are confirmed. No city clones or ranking promise.
 
-Run `python build.py`. Test five pages, links, images, menu, consultation validation and local-only result, then Vercel and storefront preview/price. Future hero directions: blackwork sketch table, brighter art-gallery studio, color-work artist portrait. Do not duplicate merely for palette.
+Run `python build.py`. Five generated pages passed title, heading, metadata, internal link and asset checks; JavaScript passed `node --check`. Production pages and both generated images returned HTTP 200, and the desktop home layout was visually inspected. The form handler prevents default submission and renders a local-only result. Verify a completed browser submission and narrow mobile layout before client launch; confirm the storefront price on the live deployment. Future hero directions: blackwork sketch table, brighter art-gallery studio, color-work artist portrait. Do not duplicate merely for palette.
 
 ## Next chat
 
