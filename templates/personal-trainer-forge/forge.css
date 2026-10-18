@@ -1,0 +1,29 @@
+/* Forge Strength: warm industrial direction. */
+:root{--ink:#f5f2eb;--muted:#c0b8ac;--bg:#111414;--panel:#1b2120;--line:#3b403b;--pink:#e88938;--pink2:#aa562a;--lime:#d4de8b;--dark:#161b1a}
+body{background:var(--bg)}
+.demo-bar{background:#e7dfd2;color:#25231d}
+.site-header{background:rgba(17,20,20,.94)}
+.brand i,.eyebrow,.text-link,.section-heading a,.card-kicker,.proof-card span,.gallery-placeholder span{color:#e9a061}
+.brand-mark{background:linear-gradient(135deg,#e99340,#9b4e27);box-shadow:0 0 25px rgba(233,147,64,.18);font:800 16px/1 system-ui,sans-serif}
+.button-primary{background:linear-gradient(120deg,#dc7b32,#a54e2a);box-shadow:0 13px 32px rgba(206,104,39,.19)}
+.hero{min-height:700px}
+.hero-media{background-image:url('assets/forge-hero.webp');background-position:center;background-size:cover;filter:brightness(1.14)}
+.hero-shade{background:linear-gradient(90deg,rgba(13,16,16,.94),rgba(13,16,16,.65) 33%,rgba(13,16,16,.04) 69%,transparent)}
+.hero h1 span{font-family:inherit;font-style:normal;font-weight:800;color:#f3a765}
+.hero-proof span:before{color:#dfa04a}
+.trust-strip,.section-muted{background:#161a19}
+.section-pink{background:linear-gradient(120deg,#a14d28,#e9903f)}
+.section-pink .eyebrow{color:#241910}
+.card,.feature-stack article,.form-page .inquiry-form{background:#1b2120}
+.featured-card,.credential-card{background:linear-gradient(145deg,#35251c,#1b2120);border-color:#9f693e}
+.price-row{background:#1b2120}.price-row.recommended{border-color:#d08849;box-shadow:0 0 50px rgba(208,136,73,.1)}
+.page-hero{background:radial-gradient(circle at 80% 15%,rgba(210,126,56,.19),transparent 35%),linear-gradient(135deg,#111414,#24201b)}
+.proof-card,.gallery-placeholder{border-color:#57504a}
+dialog{background:#1a201e;border-color:#63513f}
+@media(max-width:600px){
+  .hero{display:block;min-height:0;padding-top:300px;background:#111414}
+  .hero-media{bottom:auto;height:300px;background-position:70% 26%;filter:brightness(1.23)}
+  .hero-shade{bottom:auto;height:300px;background:linear-gradient(0deg,rgba(17,20,20,.18),transparent 34%)}
+  .hero-inner{padding:36px 0 54px;background:#111414}
+  .hero h1{font-size:clamp(43px,11.5vw,57px)}
+}

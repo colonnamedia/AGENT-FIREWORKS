@@ -1,0 +1,10 @@
+/* Let the photography read clearly; on phones, give it its own image stage. */
+.hero-shade{background:linear-gradient(90deg,rgba(7,5,10,.94) 0%,rgba(7,5,10,.66) 34%,rgba(7,5,10,.07) 72%,transparent 100%)}
+.hero-media{filter:brightness(1.12)}
+@media(max-width:600px){
+  .hero{display:block;min-height:0;padding-top:310px;background:#0b0810}
+  .hero-media{bottom:auto;height:310px;background-position:72% 24%;filter:brightness(1.23)}
+  .hero-shade{bottom:auto;height:310px;background:linear-gradient(0deg,rgba(11,8,16,.35),transparent 38%)}
+  .hero-inner{padding:34px 0 54px;background:#0b0810}
+  .hero h1{font-size:clamp(44px,12vw,58px)}
+}

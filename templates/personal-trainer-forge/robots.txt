@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://forge-strength-personal-training.vercel.app/sitemap.xml
