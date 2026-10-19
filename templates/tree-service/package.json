@@ -1,0 +1,8 @@
+{
+  "name": "fireworks-tree-service",
+  "private": true,
+  "scripts": {
+    "build": "python3 build.py && python3 check.py",
+    "check": "python3 check.py"
+  }
+}

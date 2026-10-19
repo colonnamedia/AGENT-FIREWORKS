@@ -1,0 +1,153 @@
+{
+  "name": "Stillwater",
+  "descriptor": "MASSAGE STUDIO",
+  "industry": "Massage studio",
+  "theme": "spa",
+  "hero": "editorial",
+  "eyebrow": "A little space in your day",
+  "headline": "Slow down.<br><em>Settle in.</em>",
+  "intro": "Explore unhurried massage sessions, a welcoming studio experience and a simple way to ask about your first visit.",
+  "cta": "Preview a visit request",
+  "request": "visit",
+  "request_label": "Your visit",
+  "service_label": "Massage sessions",
+  "about_route": "the-studio",
+  "about_label": "The studio",
+  "about_title": "A calmer kind of appointment.",
+  "about_body": "Stillwater is a fictional massage studio designed around a warm welcome and a clear first-visit experience. Real therapist identities, professional credentials, treatment offerings and studio details must be supplied and approved for each client.",
+  "split_title": "Your time.<br>Your pace.",
+  "split_body": "A useful studio website makes it easy to understand the session options, what a first visit looks like and how to talk about preferences privately with the actual therapist.",
+  "tagline": "Space to pause. Time to feel present.",
+  "services": [
+    [
+      "Relaxation massage",
+      "Make room for an unhurried pause.",
+      "A session framework focused on comfort and a calm setting. The actual therapist confirms the treatment, preferences and suitability through their approved intake process.",
+      "Session details and availability are confirmed with the studio."
+    ],
+    [
+      "Focused massage",
+      "A conversation about your preferences.",
+      "This layout allows a client to explain a more focused session without making medical or outcome claims. The practitioner determines what is within their scope and appropriate for the visitor.",
+      "Discuss personal information directly through the client’s approved intake."
+    ],
+    [
+      "First studio visit",
+      "Start with a little more certainty.",
+      "Introduce the arrival process, how preferences are discussed and what the studio provides. Replace the example experience with the real client’s accessibility, timing and cancellation policies.",
+      "This demo does not book an appointment or collect health information."
+    ]
+  ],
+  "steps": [
+    [
+      "Find your starting point",
+      "Explore the session types and choose a general interest for the preview."
+    ],
+    [
+      "Talk through preferences",
+      "The client’s actual therapist would discuss preferences and use an approved private intake process."
+    ],
+    [
+      "Plan your visit",
+      "Confirm the real appointment, price, location and studio policies directly with the client."
+    ]
+  ],
+  "faqs": [
+    [
+      "Can I book a real appointment here?",
+      "No. This is a local request preview. A client’s approved booking provider is connected before launch."
+    ],
+    [
+      "Should I include health details?",
+      "No. Do not enter health information in this demo. Use the actual practitioner’s approved private intake process."
+    ],
+    [
+      "Where are the prices and durations?",
+      "The real studio must approve its session menu, durations, prices and cancellation policy before publication."
+    ],
+    [
+      "Who are the therapists in the photographs?",
+      "They are stock-photo models and practitioners, not identified members of this fictional studio."
+    ]
+  ],
+  "fields": [
+    [
+      "service",
+      "Session interest",
+      "select",
+      [
+        "Relaxation massage",
+        "Focused massage",
+        "First studio visit"
+      ]
+    ],
+    [
+      "preference",
+      "Preferred time of day",
+      "select",
+      [
+        "Morning",
+        "Afternoon",
+        "Evening",
+        "Flexible"
+      ]
+    ]
+  ],
+  "note": "No appointment is booked. Do not enter health information. Credentials, accessibility, prices and booking policies require client approval.",
+  "gallery_title": "A feeling of space, before you arrive",
+  "gallery_caps": [
+    "Thoughtful touch",
+    "Simple studio details",
+    "An unhurried setting"
+  ],
+  "palette": [
+    "#3e5148",
+    "#c9b59a",
+    "#f6f3ed",
+    "#e3e9df"
+  ],
+  "slug": "massage-studio",
+  "demo_origin": "https://massage-studio.fireworks-demo.example",
+  "photos": [
+    [
+      5793681,
+      "Massage therapist working with a client in a bright room",
+      [
+        1600,
+        1067
+      ]
+    ],
+    [
+      6560293,
+      "Close view of a massage session",
+      [
+        800,
+        1200
+      ]
+    ],
+    [
+      3865607,
+      "Lavender, oil and folded spa towels",
+      [
+        800,
+        1200
+      ]
+    ],
+    [
+      6186768,
+      "Illustrative massage treatment in a quiet spa",
+      [
+        1600,
+        1067
+      ]
+    ],
+    [
+      5793708,
+      "Therapist performing a head massage",
+      [
+        800,
+        1200
+      ]
+    ]
+  ]
+}

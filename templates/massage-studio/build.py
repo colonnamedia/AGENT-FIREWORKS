@@ -1,0 +1,73 @@
+"""Dependency-free static site builder. Content is in site.json; no client JS is needed for page content."""
+from pathlib import Path
+from html import escape as e
+import json,shutil,os,argparse
+R=Path(__file__).resolve().parent
+c=json.loads((R/'site.json').read_text())
+ap=argparse.ArgumentParser();ap.add_argument('--output');ap.add_argument('--prefix',default='');args=ap.parse_args()
+OUT=Path(args.output) if args.output else R/'dist';OUT.mkdir(parents=True,exist_ok=True)
+prefix=args.prefix.rstrip('/');origin=os.environ.get('SITE_URL',c['demo_origin']).rstrip('/')
+def url(p=''):return prefix+'/'+p.strip('/')+('/' if p.strip('/') and '.' not in p.split('/')[-1] else '')
+def img(i,cls='',eager=False):
+ p=c['photos'][i];f=f'assets/photo-{p[0]}.webp';w,h=p[2]
+ return f'<img class="{cls}" src="{url(f)}" alt="{e(p[1])} — illustrative stock photograph" width="{w}" height="{h}" loading="{"eager" if eager else "lazy"}"'+(' fetchpriority="high"' if eager else '')+'>'
+def btn(label=None,target=None,secondary=False):return f'<a class="button {"secondary" if secondary else ""}" href="{target or url(c["request"])}">{e(label or c["cta"])} <span aria-hidden="true">↗</span></a>'
+nav=[('Home',''),(c['service_label'],'services'),('How it works','process'),(c['about_label'],c['about_route']),(c['request_label'],c['request'])]
+manifest=[]
+def page(slug,title,description,body):
+ canonical=origin+('/'+slug+'/' if slug else '/')
+ links=''.join(f'<a href="{url(p)}"'+(' aria-current="page"' if p==slug else '')+f'>{e(label)}</a>' for label,p in nav)
+ brand=f'<span class="brand-mark" aria-hidden="true">{e(c["name"][0])}</span><span>{e(c["name"])}<small>{c["descriptor"]}</small></span>'
+ head=f'''<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(description)}"><meta name="robots" content="noindex,follow"><link rel="canonical" href="{canonical}"><meta property="og:type" content="website"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{origin}/assets/photo-{c['photos'][0][0]}.webp"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(description)}"><link rel="icon" href="{url('assets/favicon.svg')}" type="image/svg+xml"><link rel="stylesheet" href="{url('styles.css')}"><script src="{url('script.js')}" defer></script>'''
+ html=f'''<!doctype html><html lang="en"><head>{head}</head><body class="theme-{c['theme']}"><a href="#content" class="skip-link">Skip to content</a><div class="demo-bar">FIREWORKS TEMPLATE · FICTIONAL BUSINESS · LOCAL PREVIEW ONLY</div><header class="header"><div class="wrap header-inner"><a class="brand" href="{url()}" aria-label="{e(c['name'])} home">{brand}</a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav" type="button"><span></span><span></span><span></span></button><nav id="main-nav" aria-label="Main navigation">{links}</nav></div></header><main id="content">{body}</main><footer><div class="wrap footer-grid"><div><a class="brand" href="{url()}">{brand}</a><p>{e(c['tagline'])}</p><p class="muted">A fictional {e(c['industry'].lower())} website by FireWorks. Stock photos are illustrative.</p></div><div><h2>Explore</h2>{links}</div><div><h2>Made for your business</h2><p>Replace the demo identity, service area, contact details, qualifications, policies and photography with approved client content before launch.</p><a href="{url(c['request'])}">Try the local inquiry preview ↗</a></div></div><div class="wrap footer-bottom"><span>© {e(c['name'])} · FireWorks demonstration</span><span>No inquiries are sent, stored or booked.</span></div></footer></body></html>'''
+ d=OUT/slug;d.mkdir(parents=True,exist_ok=True);(d/'index.html').write_text(html)
+ manifest.append(dict(path='/'+slug+'/' if slug else '/',title=title,description=description,canonical=canonical))
+def sectionhead(kicker,title,text=''):
+ return f'<div class="section-head"><div><p class="eyebrow">{kicker}</p><h2>{title}</h2></div>'+ (f'<p>{text}</p>' if text else '')+'</div>'
+def service_cards():
+ return '<div class="service-grid">'+''.join(f'<a class="service-card" href="{url("services")}#service-{i}"><span class="card-number">0{i+1}</span><h3>{e(s[0])}</h3><p>{e(s[1])}</p><span class="text-link">Explore the service <span aria-hidden="true">↗</span></span></a>' for i,s in enumerate(c['services']))+'</div>'
+def steps():
+ return '<ol class="steps">'+''.join(f'<li><span>0{i+1}</span><div><h3>{e(s[0])}</h3><p>{e(s[1])}</p></div></li>' for i,s in enumerate(c['steps']))+'</ol>'
+def faq():return '<div class="faqs">'+''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q,a in c['faqs'])+'</div>'
+def gallery():
+ return '<div class="photo-grid">'+''.join(f'<figure>{img(i+2)}<figcaption><span>0{i+1}</span>{e(c["gallery_caps"][i])}</figcaption></figure>' for i in range(3))+'</div><p class="photo-note">Illustrative stock photography. These are not actual employees, customers or completed client projects.</p>'
+def callout():return f'<section class="callout"><div class="wrap"><p class="eyebrow">A useful first step</p><h2>{e(c["cta"])}.</h2><p>Explore the request flow without sending information or making a booking.</p>{btn()}</div></section>'
+def intro(kicker,title,text):return f'<section class="page-intro wrap"><p class="eyebrow">{e(kicker)}</p><h1>{e(title)}</h1><p class="lead">{e(text)}</p></section>'
+hero=f'''<section class="hero hero-{c['hero']}"><div class="hero-photo">{img(0,eager=True)}<span class="photo-label">Illustrative stock photography</span></div><div class="wrap hero-content"><div><p class="eyebrow">{e(c['eyebrow'])}</p><h1>{c['headline']}</h1><p class="lead">{e(c['intro'])}</p><div class="actions">{btn()}{btn('Explore '+c['service_label'].lower(),url('services'),True)}</div><p class="hero-foot">{e(c['name'])} · Fictional business website</p></div></div></section>'''
+strip='<div class="service-strip"><div class="wrap">'+''.join(f'<span>{e(s[0])}</span>' for s in c['services'])+'</div></div>'
+services=f'<section class="section wrap">{sectionhead("What we do",c["service_label"],"A clear starting point. Every service and scope is tailored to the actual client before launch.")}{service_cards()}</section>'
+split=f'<section class="section soft"><div class="wrap split"><figure>{img(1)}<figcaption>Illustrative stock photography</figcaption></figure><div><p class="eyebrow">The way we work</p><h2>{c["split_title"]}</h2><p class="lead">{e(c["split_body"])}</p>{btn("How the process works",url("process"),True)}</div></div></section>'
+photos=f'<section class="section wrap">{sectionhead("In focus",c["gallery_title"])}{gallery()}</section>'
+process=f'<section class="section ink"><div class="wrap">{sectionhead("A considered process","Start with a conversation.<br>Build a clearer plan.")}{steps()}</div></section>'
+questions=f'<section class="section wrap faq-layout"><div><p class="eyebrow">Before you begin</p><h2>A few useful<br>answers.</h2></div>{faq()}</section>'
+# Purposeful variations in content progression.
+orders={'forest':[services,split,process,photos,questions], 'moving':[services,photos,split,process,questions], 'garage':[services,split,photos,process,questions], 'law':[split,services,process,photos,questions], 'spa':[services,split,photos,questions,process], 'ledger':[services,process,split,photos,questions]}
+page('',f'{c["name"]} | {c["industry"]} Website Demo',f'Explore the fictional {c["name"]} {c["industry"].lower()} website: services, approach and a local inquiry preview. No requests are sent.',hero+strip+''.join(orders[c['theme']])+callout())
+servicebody=intro(c['service_label'],'A clearer view of the options.','Explore the service frameworks below. Client offerings, qualifications, availability and written terms are confirmed before launch.')
+for i,s in enumerate(c['services']):
+ servicebody+=f'<section class="service-detail wrap" id="service-{i}"><div class="detail-index">0{i+1}</div><div><p class="eyebrow">{e(s[1])}</p><h2>{e(s[0])}</h2><p class="lead">{e(s[2])}</p><div class="note"><strong>A useful starting point</strong><p>{e(s[3])}</p></div>{btn("Explore this request",url(c["request"])+f"?service={i}")}</div><figure>{img(i+2)}<figcaption>Illustrative stock photography</figcaption></figure></section>'
+page('services',f'{c["service_label"]} | {c["name"]} Demo',f'Explore {c["name"]} service examples, scope questions and next steps. Fictional template with no live inquiry delivery.',servicebody+callout())
+processbody=intro('How it works','A little preparation.<br>A clearer next step.'.replace('<br>',' '),'A practical overview of how a real client could take an initial inquiry through to an agreed plan.')+f'<section class="section soft"><div class="wrap split"><div>{steps()}</div><figure>{img(1)}<figcaption>Illustrative stock photography</figcaption></figure></div></section>'
+if c['theme']=='moving':
+ processbody+='''<section class="section wrap checklist"><p class="eyebrow">A small planning tool</p><h2>Your moving-day starting list.</h2><p>Tick items as you think them through. This checklist stays in this page only.</p><div class="checklist-items">'''+''.join(f'<label><input type="checkbox" data-checklist> {e(x)}</label>' for x in ['Note stairs and elevator access','List oversized or delicate items','Confirm building loading rules','Separate day-one essentials'])+'''</div><p role="status" id="checklist-status">0 of 4 planning items considered.</p></section>'''
+processbody+=f'<section class="section wrap faq-layout"><div><p class="eyebrow">Plan with confidence</p><h2>Questions worth<br>asking early.</h2></div>{faq()}</section>'+callout()
+page('process',f'The Process | {c["name"]} Demo',f'How the fictional {c["name"]} inquiry and planning process works, with practical questions to discuss before agreeing a scope.',processbody)
+aboutbody=intro(c['about_label'],c['about_title'],c['about_body'])+f'<section class="section soft"><div class="wrap split"><figure>{img(1)}<figcaption>Stock photograph, not an identified member of this fictional business.</figcaption></figure><div><p class="eyebrow">A client-ready framework</p><h2>{e(c["tagline"])}</h2><p>{e(c["split_body"])}</p><div class="note"><strong>Details that earn trust</strong><p>Use verified business information, approved photographs and clear service terms. This demo makes no credential, review or outcome claims.</p></div></div></div></section><section class="section wrap">{sectionhead("Illustrative scenes",c["gallery_title"])}{gallery()}</section>'+callout()
+page(c['about_route'],f'{c["about_label"]} | {c["name"]} Demo',f'About the fictional {c["name"]} approach, with illustrative photography and client information to confirm before launch.',aboutbody)
+fields=''
+for name,label,typ,opts in [('name','Your name','text',None),('email','Email','email',None)]+c['fields']:
+ if typ=='select':control=f'<select id="{name}" name="{name}" required><option value="">Choose an option</option>'+''.join(f'<option value="{e(x)}">{e(x)}</option>' for x in opts)+'</select>'
+ else:control=f'<input id="{name}" name="{name}" type="{typ}"'+(' autocomplete="name"' if name=='name' else ' autocomplete="email"' if name=='email' else '')+' required>'
+ fields+=f'<label for="{name}">{e(label)} <span aria-hidden="true">*</span>{control}</label>'
+requestbody=intro('Local-only demo',c['cta']+'.','Try the form, review your selections and see the next-step summary. Nothing is sent, saved or booked.')+f'''<section class="section wrap request-layout"><aside><p class="eyebrow">Before you begin</p><h2>A useful introduction.</h2><p>{e(c['note'])}</p><p>All fields are required. Use sample details for this demo.</p><div class="note"><strong>No delivery integration</strong><p>A real client chooses and tests an approved inbox or booking provider before launch. No production account is connected here.</p></div></aside><div><form id="request-form"><fieldset id="preview-fields" disabled><div class="form-grid">{fields}</div><label class="consent"><input name="demo" type="checkbox" required> I understand this is a local preview. No request, appointment or service is confirmed.</label><button class="button" type="submit">Preview my request <span aria-hidden="true">↗</span></button><p class="form-fine">Please use example contact details. No form data leaves this page.</p></fieldset><noscript><p>The request preview requires JavaScript. The rest of the website is available without it.</p></noscript></form><section id="request-summary" class="request-summary" aria-labelledby="summary-title" hidden><p class="eyebrow">Preview complete</p><h2 id="summary-title" tabindex="-1">Your next step, made clearer.</h2><p>Nothing was sent, stored or booked. These are your selected preferences:</p><dl id="summary-values"></dl><p>A real provider would review the details, confirm availability and discuss the scope with you.</p><button id="edit-request" type="button" class="button secondary">Edit the preview</button></section><p id="form-status" role="status" aria-live="polite"></p></div></section>'''
+page(c['request'],f'{c["request_label"]} Preview | {c["name"]} Demo',f'Try the {c["name"]} local request preview. No information is sent or stored and no appointment or service is booked.',requestbody)
+# A real 404 document; never send visitors to a homepage shell.
+page('404',f'Page Not Found | {c["name"]} Demo','The requested page could not be found.',intro('404','This page isn’t here.','Use the navigation to explore the demo or return to the home page.')+f'<div class="wrap section">{btn("Back to home",url())}</div>')
+shutil.copy(OUT/'404/index.html',OUT/'404.html');shutil.rmtree(OUT/'404')
+manifest=[m for m in manifest if m['path']!='/404/']
+(OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{m["canonical"]}</loc></url>' for m in manifest)+'</urlset>')
+(OUT/'robots.txt').write_text('User-agent: *\nAllow: /\n# Demo pages carry noindex. Update for the approved client domain at launch.\nSitemap: '+origin+'/sitemap.xml\n')
+(OUT/'rendering-manifest.json').write_text(json.dumps(manifest,indent=2))
+for f in ['styles.css','script.js','vercel.json']:shutil.copy(R/f,OUT/f)
+shutil.copytree(R/'assets',OUT/'assets',dirs_exist_ok=True)
+print(f'Built {c["name"]}: {len(manifest)} complete static public pages -> {OUT}')

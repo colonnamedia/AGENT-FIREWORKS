@@ -1,0 +1,159 @@
+{
+  "name": "Next Chapter",
+  "descriptor": "MOVING CO.",
+  "industry": "Moving company",
+  "theme": "moving",
+  "hero": "split",
+  "eyebrow": "A fresh start, with a little more breathing room",
+  "headline": "New place.<br><em>Better moving day.</em>",
+  "intro": "A thoughtful plan for the boxes, the big pieces and everything that makes a place yours. Explore local moving, packing help and small-office moves.",
+  "cta": "Plan my move",
+  "request": "moving-plan",
+  "request_label": "Moving plan",
+  "service_label": "Moving services",
+  "about_route": "moving-guide",
+  "about_label": "Moving guide",
+  "about_title": "Leave room for the good part.",
+  "about_body": "Moving has a lot of small decisions. This fictional moving company makes the essentials easier to discuss: the inventory, the route, building access and what needs extra care. Real licensing, coverage and availability are added for each client.",
+  "split_title": "The details make<br>the day feel different.",
+  "split_body": "Stairs, elevator windows, narrow doorways and the final box count all affect the plan. Bring them into the conversation early so the estimate reflects the move you actually need.",
+  "tagline": "Pack the essentials. Plan the rest.",
+  "services": [
+    [
+      "Local home moves",
+      "A new address, a clear starting point.",
+      "Plan an apartment or home move around inventory, property access and the route. The client confirms crew availability, equipment and the agreed service scope.",
+      "Prepare both addresses, a room count and access notes."
+    ],
+    [
+      "Packing & unpacking",
+      "A little help with the little things.",
+      "Choose the rooms or items that need packing support. Discuss who supplies materials, how fragile items are handled and what unpacking includes.",
+      "Identify delicate, oversized or unusually shaped items."
+    ],
+    [
+      "Small-office moves",
+      "Make space for the next workday.",
+      "Create an inventory for furniture and everyday office equipment. Discuss building rules, access windows and how the move fits the business schedule.",
+      "Confirm building requirements before scheduling."
+    ]
+  ],
+  "steps": [
+    [
+      "Map the move",
+      "List the property types, approximate size, preferred date and access at each end."
+    ],
+    [
+      "Build the moving plan",
+      "Review the inventory, packing needs and any items needing special arrangements."
+    ],
+    [
+      "Confirm the details",
+      "A real client provides a written estimate, availability, coverage terms and a clear day-of contact."
+    ]
+  ],
+  "faqs": [
+    [
+      "Is the preview a reservation?",
+      "No. Nothing is sent and no date, vehicle or crew is reserved."
+    ],
+    [
+      "How is a move priced?",
+      "The final client explains its pricing method, minimums, travel time, materials and any extra charges before booking."
+    ],
+    [
+      "Can I request packing only?",
+      "This layout supports packing-only requests when that service is offered by the actual client."
+    ],
+    [
+      "What about stairs and elevators?",
+      "Add them to the planning conversation along with loading access and building restrictions."
+    ]
+  ],
+  "fields": [
+    [
+      "service",
+      "Help needed",
+      "select",
+      [
+        "Home move",
+        "Packing help",
+        "Small-office move"
+      ]
+    ],
+    [
+      "size",
+      "Approximate move size",
+      "select",
+      [
+        "Studio / small office",
+        "1–2 bedrooms",
+        "3+ bedrooms",
+        "Still planning"
+      ]
+    ],
+    [
+      "date",
+      "Preferred move date",
+      "date",
+      null
+    ]
+  ],
+  "note": "No vehicles, crew or dates are booked here. The client must approve service area, licensing, coverage and written moving terms before launch.",
+  "gallery_title": "Make space for a fresh start",
+  "gallery_caps": [
+    "A family’s next chapter",
+    "A pause between boxes",
+    "The first steps inside"
+  ],
+  "palette": [
+    "#203e56",
+    "#f69f69",
+    "#f6f3eb",
+    "#e5eef2"
+  ],
+  "slug": "moving-company",
+  "demo_origin": "https://moving-company.fireworks-demo.example",
+  "photos": [
+    [
+      8292820,
+      "Couple carrying boxes into a new home",
+      [
+        1600,
+        1067
+      ]
+    ],
+    [
+      7415047,
+      "Family moving boxes into a new home",
+      [
+        1600,
+        1067
+      ]
+    ],
+    [
+      36813425,
+      "Couple resting among packed moving boxes",
+      [
+        1600,
+        900
+      ]
+    ],
+    [
+      8293644,
+      "Boxes being carried through a doorway",
+      [
+        1600,
+        1067
+      ]
+    ],
+    [
+      36813408,
+      "A box and plant being moved into a bright home",
+      [
+        1600,
+        900
+      ]
+    ]
+  ]
+}

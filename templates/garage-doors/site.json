@@ -1,0 +1,158 @@
+{
+  "name": "Liftline",
+  "descriptor": "GARAGE DOORS",
+  "industry": "Garage door company",
+  "theme": "garage",
+  "hero": "split",
+  "eyebrow": "Built around the way you come home",
+  "headline": "A better door.<br><em>A smoother day.</em>",
+  "intro": "Explore repairs, replacement doors and opener options with a clear path from the first question to a professionally assessed scope.",
+  "cta": "Plan a service visit",
+  "request": "service-request",
+  "request_label": "Service request",
+  "service_label": "Door services",
+  "about_route": "door-guide",
+  "about_label": "Door guide",
+  "about_title": "Every opening has its own requirements.",
+  "about_body": "Door size, track condition, headroom, opener compatibility and appearance all matter. This fictional garage-door company starts with a site assessment and explains the choices before a client commits to the work.",
+  "split_title": "Function first.<br>Finish thoughtfully.",
+  "split_body": "A replacement door should suit the opening and the home. A repair should begin with a professional inspection of the full system. This template keeps those two paths easy to find.",
+  "tagline": "Repair. Replace. Open new possibilities.",
+  "services": [
+    [
+      "Door repairs",
+      "Start with the whole system.",
+      "Describe the issue and arrange an assessment by a qualified garage-door provider. The client determines parts, compatibility and the service scope after inspection.",
+      "Share the door type and a general description of the problem."
+    ],
+    [
+      "New door installations",
+      "Choose the look and the fit.",
+      "Compare styles, materials and window options before confirming measurements and installation requirements. Product availability and warranties come from the client’s approved suppliers.",
+      "Bring an idea of the style and finish you prefer."
+    ],
+    [
+      "Openers & maintenance",
+      "Make daily use more straightforward.",
+      "Discuss opener features, compatible equipment and a maintenance plan for the installed system. Smart features depend on the chosen product and site requirements.",
+      "Confirm the existing opener and any preferred features."
+    ]
+  ],
+  "steps": [
+    [
+      "Describe the door",
+      "Choose repair, replacement or opener support and share the general location."
+    ],
+    [
+      "Review on site",
+      "A qualified provider assesses the opening, equipment and appropriate service options."
+    ],
+    [
+      "Approve the scope",
+      "Confirm the selected product or repair, written price, schedule and client warranty terms."
+    ]
+  ],
+  "faqs": [
+    [
+      "Can I get an exact price online?",
+      "The final client may need measurements and an inspection before confirming parts and a written price."
+    ],
+    [
+      "Does the site promise same-day service?",
+      "No. Real scheduling and response times are confirmed by the client."
+    ],
+    [
+      "Can I compare door styles?",
+      "The design gallery shows illustrative homes. Add approved manufacturer options when the client’s product range is confirmed."
+    ],
+    [
+      "Will a new opener fit my existing door?",
+      "A qualified provider must confirm compatibility with the existing system."
+    ]
+  ],
+  "fields": [
+    [
+      "service",
+      "Service interest",
+      "select",
+      [
+        "Door repair",
+        "New door installation",
+        "Opener & maintenance"
+      ]
+    ],
+    [
+      "property",
+      "Property type",
+      "select",
+      [
+        "House",
+        "Townhouse",
+        "Other residential property"
+      ]
+    ],
+    [
+      "location",
+      "General location",
+      "text",
+      null
+    ]
+  ],
+  "note": "This preview does not schedule a technician. Manufacturer products, warranties, qualifications and service availability require client approval.",
+  "gallery_title": "Find a door that fits the setting",
+  "gallery_caps": [
+    "Contemporary exterior",
+    "Driveway approach",
+    "Neighborhood character"
+  ],
+  "palette": [
+    "#1b2432",
+    "#c1d0ee",
+    "#f2f3f4",
+    "#dde3eb"
+  ],
+  "slug": "garage-doors",
+  "demo_origin": "https://garage-doors.fireworks-demo.example",
+  "photos": [
+    [
+      36777845,
+      "Suburban home with a garage and driveway",
+      [
+        1600,
+        1067
+      ]
+    ],
+    [
+      7996765,
+      "Contemporary garage door and building exterior",
+      [
+        1600,
+        1067
+      ]
+    ],
+    [
+      8186510,
+      "Aerial view of a home and garage driveway",
+      [
+        1600,
+        899
+      ]
+    ],
+    [
+      7028099,
+      "Brick townhouses with garage doors",
+      [
+        1600,
+        1067
+      ]
+    ],
+    [
+      15267098,
+      "Residential garage doors and paved driveway",
+      [
+        1600,
+        1064
+      ]
+    ]
+  ]
+}

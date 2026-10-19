@@ -1,0 +1,152 @@
+{
+  "name": "Alder & Stone",
+  "descriptor": "COUNSEL",
+  "industry": "Law firm",
+  "theme": "law",
+  "hero": "editorial",
+  "eyebrow": "A thoughtful starting point for your next decision",
+  "headline": "Clarity for the<br><em>decisions ahead.</em>",
+  "intro": "A considered approach to estate planning, small-business matters and property transactions. Understand the process before taking the next step.",
+  "cta": "Preview a consultation request",
+  "request": "consultation",
+  "request_label": "Consultation",
+  "service_label": "Practice areas",
+  "about_route": "the-firm",
+  "about_label": "The firm",
+  "about_title": "The conversation comes before the counsel.",
+  "about_body": "Alder & Stone is a fictional firm identity for this template. Replace this introduction with the actual firm’s philosophy, verified attorney biographies, admissions and jurisdiction before client launch. Stock photographs do not depict its attorneys.",
+  "split_title": "A measured approach.<br>A clearer conversation.",
+  "split_body": "Explain how the firm listens, evaluates whether it can assist and agrees on the scope of representation. Visitors should understand the first step without being asked to share confidential facts in an initial form.",
+  "tagline": "Careful questions. Clearer next steps.",
+  "services": [
+    [
+      "Estate planning",
+      "Prepare for the conversations that matter.",
+      "This practice-area framework introduces planning goals, the consultation process and the documents a real firm may discuss. Actual services and jurisdiction-specific content require attorney approval.",
+      "Start with a general topic, not confidential details."
+    ],
+    [
+      "Small-business counsel",
+      "Build a foundation for the business ahead.",
+      "Use this page to describe the client’s actual work with business formation, agreements and ongoing counsel. It must reflect the firm’s verified practice and relevant admissions.",
+      "Confirm scope and engagement terms with the firm."
+    ],
+    [
+      "Property matters",
+      "Understand the steps around a transaction.",
+      "Describe the firm’s approved transaction or property services and the role it performs. Avoid promises about outcomes, timing or legal suitability.",
+      "The real firm determines whether it can assist."
+    ]
+  ],
+  "steps": [
+    [
+      "Make an introduction",
+      "Provide contact details and a broad practice-area interest. Do not include confidential information."
+    ],
+    [
+      "Confirm fit and availability",
+      "The actual firm completes its intake and conflict review before discussing representation."
+    ],
+    [
+      "Agree on an engagement",
+      "Fees, scope, responsibilities and terms are agreed directly with the firm before work begins."
+    ]
+  ],
+  "faqs": [
+    [
+      "Does the form create an attorney-client relationship?",
+      "No. This local demo does not contact a firm, and representation would require the actual firm’s agreed engagement."
+    ],
+    [
+      "Should I send case details here?",
+      "No. Do not enter confidential, privileged or sensitive information in this demo."
+    ],
+    [
+      "Are the people shown the firm’s attorneys?",
+      "No. All photography is illustrative stock. Verified client profiles must be supplied before launch."
+    ],
+    [
+      "Is this legal advice?",
+      "No. This fictional website demonstrates a layout and inquiry flow. The client’s attorneys must approve substantive legal content."
+    ]
+  ],
+  "fields": [
+    [
+      "service",
+      "General area of interest",
+      "select",
+      [
+        "Estate planning",
+        "Small-business counsel",
+        "Property matter",
+        "General introduction"
+      ]
+    ],
+    [
+      "preference",
+      "Preferred contact method",
+      "select",
+      [
+        "Email",
+        "Phone conversation"
+      ]
+    ]
+  ],
+  "note": "Fictional law-firm demo. No legal advice or attorney-client relationship. Do not include confidential information. No request is sent.",
+  "gallery_title": "Space for a considered conversation",
+  "gallery_caps": [
+    "Research and preparation",
+    "An illustrative office meeting",
+    "A place to begin"
+  ],
+  "palette": [
+    "#26372f",
+    "#bda47a",
+    "#f3eee4",
+    "#e4e1d6"
+  ],
+  "slug": "law-firm",
+  "demo_origin": "https://law-firm.fireworks-demo.example",
+  "photos": [
+    [
+      7876295,
+      "Illustrative consultation in a professional office",
+      [
+        1600,
+        1067
+      ]
+    ],
+    [
+      7876088,
+      "Legal books and documents on a desk",
+      [
+        1600,
+        1067
+      ]
+    ],
+    [
+      4427505,
+      "Illustrative legal professionals meeting in an office",
+      [
+        1600,
+        1068
+      ]
+    ],
+    [
+      8112154,
+      "Visitors arriving for an office consultation",
+      [
+        1600,
+        1068
+      ]
+    ],
+    [
+      7841465,
+      "Illustrative legal professional reviewing documents",
+      [
+        1600,
+        1067
+      ]
+    ]
+  ]
+}

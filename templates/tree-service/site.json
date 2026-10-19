@@ -1,0 +1,159 @@
+{
+  "name": "Ridge & Root",
+  "descriptor": "TREE CARE",
+  "industry": "Tree service",
+  "theme": "forest",
+  "hero": "cover",
+  "eyebrow": "A clearer plan for the trees around you",
+  "headline": "Care for your trees.<br><em>Room for what’s next.</em>",
+  "intro": "From careful pruning to planned removals, start with a conversation about the tree, the property and the outcome you need.",
+  "cta": "Plan a tree assessment",
+  "request": "assessment",
+  "request_label": "Tree assessment",
+  "service_label": "Tree care",
+  "about_route": "field-notes",
+  "about_label": "Field notes",
+  "about_title": "Good tree work starts on the ground.",
+  "about_body": "Access, nearby structures, tree condition and the cleanup plan all shape the work. This fictional tree-care company puts those questions first so a homeowner can have a more useful conversation with a qualified provider.",
+  "split_title": "More than a cut.<br>A plan for the whole property.",
+  "split_body": "Understand what is staying, what needs attention and how the site should look when work is complete. The right scope starts with an on-site assessment, not a promise from a photograph.",
+  "tagline": "Thoughtful care. A considered approach.",
+  "services": [
+    [
+      "Pruning & canopy care",
+      "Shape a practical maintenance plan.",
+      "Discuss clearance, branch structure and the reason for pruning. A qualified professional determines the scope after seeing the tree and its surroundings.",
+      "Share the tree location, access and your main concern."
+    ],
+    [
+      "Planned tree removal",
+      "Know the scope before work begins.",
+      "Review access, nearby buildings, removal methods and the finish you want for the site. Equipment, crew requirements and timing are confirmed for each property.",
+      "Ask what debris removal and site protection include."
+    ],
+    [
+      "Stumps & site cleanup",
+      "Finish with a usable space.",
+      "Discuss stump grinding, wood handling and the condition of the area afterward. Underground utilities, access and restoration requirements must be reviewed before the work is scheduled.",
+      "Clarify grinding depth, chips and any restoration work."
+    ]
+  ],
+  "steps": [
+    [
+      "Start with the property",
+      "Share the location, service interest and a general description. This preview does not transmit anything."
+    ],
+    [
+      "Assess the scope",
+      "A client’s qualified tree-care team would inspect access, surroundings and tree condition."
+    ],
+    [
+      "Agree on the finish",
+      "Confirm the written scope, cleanup expectations, timing and any required permissions."
+    ]
+  ],
+  "faqs": [
+    [
+      "Can a tree be assessed from a photo?",
+      "Photos can help start a conversation. The client’s qualified professional decides when an on-site assessment is needed."
+    ],
+    [
+      "Is cleanup included?",
+      "The final client quote should state how branches, logs, chips and the remaining site are handled."
+    ],
+    [
+      "Does this template offer emergency dispatch?",
+      "No. This is a demo assessment flow with no dispatch or response-time promise."
+    ],
+    [
+      "What information helps an estimate?",
+      "The service interest, general location, access constraints and preferred timeframe are useful starting points."
+    ]
+  ],
+  "fields": [
+    [
+      "service",
+      "Service interest",
+      "select",
+      [
+        "Pruning & canopy care",
+        "Planned removal",
+        "Stump & cleanup",
+        "Not sure yet"
+      ]
+    ],
+    [
+      "location",
+      "General location",
+      "text",
+      null
+    ],
+    [
+      "timeframe",
+      "Preferred timeframe",
+      "select",
+      [
+        "Planning ahead",
+        "Within a month",
+        "Flexible"
+      ]
+    ]
+  ],
+  "note": "Do not rely on this demo for urgent assistance. Client credentials, insurance, coverage and response policies must be verified before launch.",
+  "gallery_title": "A closer look at tree care",
+  "gallery_caps": [
+    "Work at height",
+    "Woodland maintenance",
+    "Equipment and cleanup"
+  ],
+  "palette": [
+    "#152f26",
+    "#c5db75",
+    "#f4f2e8",
+    "#dce3d8"
+  ],
+  "slug": "tree-service",
+  "demo_origin": "https://tree-service.fireworks-demo.example",
+  "photos": [
+    [
+      31127615,
+      "Arborist working on a tree trunk with safety equipment",
+      [
+        1600,
+        1067
+      ]
+    ],
+    [
+      34674271,
+      "Arborist climbing a tree for maintenance",
+      [
+        802,
+        1200
+      ]
+    ],
+    [
+      11932165,
+      "Tree worker using a chainsaw in a woodland",
+      [
+        1600,
+        901
+      ]
+    ],
+    [
+      13695364,
+      "Chainsaw cutting a fallen log",
+      [
+        1600,
+        901
+      ]
+    ],
+    [
+      7812847,
+      "Tree care worker beside equipment",
+      [
+        1600,
+        1067
+      ]
+    ]
+  ]
+}

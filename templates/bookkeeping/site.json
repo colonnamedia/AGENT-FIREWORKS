@@ -1,0 +1,164 @@
+{
+  "name": "Clear Ledger",
+  "descriptor": "BOOKKEEPING",
+  "industry": "Bookkeeping and accounting",
+  "theme": "ledger",
+  "hero": "split",
+  "eyebrow": "A clearer view of the business you’re building",
+  "headline": "Keep the books.<br><em>Find your focus.</em>",
+  "intro": "Monthly bookkeeping, catch-up support and useful reporting for owner-led businesses. Start with your workflow and build a more consistent month-end routine.",
+  "cta": "Preview a discovery call",
+  "request": "discovery",
+  "request_label": "Discovery call",
+  "service_label": "Bookkeeping services",
+  "about_route": "our-approach",
+  "about_label": "Our approach",
+  "about_title": "Good records. A more useful conversation.",
+  "about_body": "Clear Ledger is a fictional bookkeeping brand for owner-led businesses. Its purpose is to make the scope, handoff and month-end routine easier to understand. Replace this story with the client’s verified background and actual services. No CPA or tax credentials are implied.",
+  "split_title": "Less uncertainty.<br>A more useful month end.",
+  "split_body": "Know what information is needed, when the books are reviewed and which reports you will receive. A clear scope helps the business owner and the bookkeeper work from the same page.",
+  "tagline": "Organize the detail. See the bigger picture.",
+  "services": [
+    [
+      "Monthly bookkeeping",
+      "A repeatable routine for the essentials.",
+      "Describe the client’s agreed transaction review, reconciliations and month-end deliverables. The exact scope, software access and review process are confirmed during onboarding.",
+      "Ask which accounts, reports and recurring tasks are included."
+    ],
+    [
+      "Catch-up & cleanup",
+      "A practical starting point for overdue books.",
+      "Review the periods involved, available records and outstanding questions before agreeing on a project scope. Timing depends on the condition and completeness of the source information.",
+      "A review comes before a promised completion date."
+    ],
+    [
+      "Reporting & accountant handoff",
+      "Turn organized records into a clearer handoff.",
+      "Explain the approved reports and how the client coordinates with the business owner and their tax professional. Tax preparation and financial advice are not implied.",
+      "Confirm the reports and handoff responsibilities in writing."
+    ]
+  ],
+  "steps": [
+    [
+      "Talk about the workflow",
+      "Share the business type, general service interest and current recordkeeping approach."
+    ],
+    [
+      "Agree on the scope",
+      "The client confirms software, periods, deliverables, access controls and fees before work begins."
+    ],
+    [
+      "Build a monthly rhythm",
+      "Set a document handoff, review schedule and communication routine suited to the business."
+    ]
+  ],
+  "faqs": [
+    [
+      "Is tax preparation included?",
+      "Not in this demo’s assumed scope. Only add tax services when the actual client confirms its qualifications and offerings."
+    ],
+    [
+      "Should I upload statements here?",
+      "No. This site has no document upload or secure client portal. Do not enter account numbers, tax IDs or financial records."
+    ],
+    [
+      "Which accounting software is supported?",
+      "The client must approve supported products and any certifications. No software partnership is claimed by this template."
+    ],
+    [
+      "How are services priced?",
+      "The actual client provides a scope and fee after reviewing the workload, periods involved and deliverables."
+    ]
+  ],
+  "fields": [
+    [
+      "service",
+      "Service interest",
+      "select",
+      [
+        "Monthly bookkeeping",
+        "Catch-up & cleanup",
+        "Reporting & handoff"
+      ]
+    ],
+    [
+      "business",
+      "Business type",
+      "select",
+      [
+        "Service business",
+        "Retail / e-commerce",
+        "Independent professional",
+        "Other small business"
+      ]
+    ],
+    [
+      "timeframe",
+      "Starting point",
+      "select",
+      [
+        "New business",
+        "Current books need a routine",
+        "Books are behind",
+        "Exploring options"
+      ]
+    ]
+  ],
+  "note": "Do not enter account numbers, tax IDs or financial records. No accounting advice, software connection or document transfer is provided by this demo.",
+  "gallery_title": "The detail behind a clearer month",
+  "gallery_caps": [
+    "Reviewing the numbers",
+    "An organized workflow",
+    "A steady month-end routine"
+  ],
+  "palette": [
+    "#183d4b",
+    "#d1e584",
+    "#f5f5ef",
+    "#e4eeeb"
+  ],
+  "slug": "bookkeeping",
+  "demo_origin": "https://bookkeeping.fireworks-demo.example",
+  "photos": [
+    [
+      8297044,
+      "Illustrative bookkeeper reviewing documents at a desk",
+      [
+        1600,
+        1067
+      ]
+    ],
+    [
+      8297220,
+      "Calculator and financial paperwork",
+      [
+        800,
+        1200
+      ]
+    ],
+    [
+      6863334,
+      "Organized folders and calculator on a desk",
+      [
+        800,
+        1200
+      ]
+    ],
+    [
+      4476378,
+      "Bookkeeping notes being written beside a calculator",
+      [
+        800,
+        1200
+      ]
+    ],
+    [
+      16098005,
+      "Laptop, calculator and glasses on a work desk",
+      [
+        1600,
+        1067
+      ]
+    ]
+  ]
+}
