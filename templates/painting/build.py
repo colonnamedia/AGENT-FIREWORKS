@@ -49,3 +49,7 @@ page('estimate','Request a Painting Estimate | Field & Finish Demo','Preview a d
 (OUT/'robots.txt').write_text('User-agent: *\nAllow: /\nSitemap: '+BASE+'/sitemap.xml\n')
 (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join(f'<url><loc>{BASE}{"/"+s+"/" if s else "/"}</loc></url>' for s in ['','services','projects','service-areas','estimate'])+'</urlset>')
 print('Built',len(list(OUT.rglob('index.html'))),'pages')
+
+# Preserve the approved homepage photography after regeneration.
+import runpy as _fw_runpy
+_fw_runpy.run_path(str(Path(__file__).parent / "apply-home-photos.py"))

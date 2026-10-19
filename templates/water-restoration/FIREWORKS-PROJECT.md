@@ -35,3 +35,8 @@ Build HTML with `python build.py`. Six generated pages passed title, heading, me
 ## Next chat
 
 Treat this file as project context; inspect the current repository and commit, preserve Vercel hosting and demo boundaries, work on a branch and preview, and only publish real client changes with Anthony's approval.
+
+
+## Homepage image audit — October 19, 2026
+
+Added three distinct supporting stock photographs to the homepage, with responsive layout, descriptive alt text, explicit dimensions, lazy loading and local optimized WebP assets. Existing hero imagery remains. Source and license references are in `PHOTO-SOURCES.md`. Standing rule: every homepage should contain four to five distinct, relevant photographs; repeated hero crops and logos do not count.

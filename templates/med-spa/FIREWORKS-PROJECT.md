@@ -77,3 +77,8 @@ Business legal name and address, actual service area and hours, contact methods,
 ## Publication and verification
 
 Source is being published through the FireWorks monorepo. Verify each public route, hero asset, mobile navigation, demo form and storefront after deployment. The site remains fictional and noindex until a real client launch.
+
+
+## Homepage image audit — October 19, 2026
+
+Added three distinct supporting stock photographs to the homepage, with responsive layout, descriptive alt text, explicit dimensions, lazy loading and local optimized WebP assets. Existing hero imagery remains. Source and license references are in `PHOTO-SOURCES.md`. Standing rule: every homepage should contain four to five distinct, relevant photographs; repeated hero crops and logos do not count.

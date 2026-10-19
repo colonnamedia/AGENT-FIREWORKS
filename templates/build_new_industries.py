@@ -98,3 +98,9 @@ def generate(slug,d):
     print(slug,len(pages),'pages')
 
 for slug,data in SITES.items():generate(slug,data)
+
+# Reapply approved homepage imagery after regenerating the industry pages.
+import runpy as _fw_runpy
+for _fw_slug in SITES:
+    _fw_helper = ROOT / _fw_slug / "apply-home-photos.py"
+    if _fw_helper.exists(): _fw_runpy.run_path(str(_fw_helper))

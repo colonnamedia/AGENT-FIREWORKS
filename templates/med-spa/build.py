@@ -49,3 +49,7 @@ for slug,title,desc,active,body in pages:
     folder.mkdir(parents=True,exist_ok=True)
     (folder/'index.html').write_text(layout(slug,title,desc,active,body),encoding='utf-8')
 print('Generated',len(pages),'HTML routes')
+
+# Preserve the approved homepage photography after regeneration.
+import runpy as _fw_runpy
+_fw_runpy.run_path(str(Path(__file__).parent / "apply-home-photos.py"))

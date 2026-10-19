@@ -33,3 +33,7 @@ consult=intro('CONSULTATION / LOCAL PREVIEW','Tell us about the piece.','This fi
 for path,body in [('index.html',home),('artists.html',artists),('gallery.html',gallery),('experience.html',experience),('consultation.html',consult)]:
  (P/path).write_text(page(path,body),encoding='utf-8')
 print('Built',len(pages),'tattoo studio pages')
+
+# Preserve the approved homepage photography after regeneration.
+import runpy as _fw_runpy
+_fw_runpy.run_path(str(Path(__file__).parent / "apply-home-photos.py"))

@@ -45,3 +45,7 @@ request=intro('SAFE LOCAL PREVIEW','Start with the vehicle.','This form demonstr
 for path, body in [('index.html',home),('services.html',services),('process.html',process),('service-areas.html',areas),('request-service.html',request)]:
     (ROOT/path).write_text(shell(path,body),encoding='utf-8')
 print('Built',len(PAGES),'pages')
+
+# Preserve the approved homepage photography after regeneration.
+import runpy as _fw_runpy
+_fw_runpy.run_path(str(Path(__file__).parent / "apply-home-photos.py"))

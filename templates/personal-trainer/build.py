@@ -97,3 +97,7 @@ for filename, page in PAGES.items():
 urls = [SITE + ("/" if f == "index.html" else "/" + f.removesuffix(".html")) for f in PAGES]
 (ROOT / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "\n".join(f"  <url><loc>{u}</loc></url>" for u in urls) + "\n</urlset>\n", encoding="utf-8")
 print(f"Built {len(PAGES)} pages")
+
+# Preserve the approved homepage photography after regeneration.
+import runpy as _fw_runpy
+_fw_runpy.run_path(str(Path(__file__).parent / "apply-home-photos.py"))

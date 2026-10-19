@@ -38,3 +38,7 @@ request=intro('LOCAL-ONLY ASSESSMENT PREVIEW','Tell us what happened.','This dem
 for path,body in [('index.html',home),('services.html',services),('process.html',process),('commercial.html',commercial),('service-areas.html',areas),('request-assessment.html',request)]:
  (P/path).write_text(page(path,body),encoding='utf-8')
 print('Built',len(pages),'water restoration pages')
+
+# Preserve the approved homepage photography after regeneration.
+import runpy as _fw_runpy
+_fw_runpy.run_path(str(Path(__file__).parent / "apply-home-photos.py"))

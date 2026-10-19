@@ -58,3 +58,8 @@ The first hero is an original AI-generated image of an adult trainer coaching an
 - Automated test: passed for seven pages, internal routes, metadata, safe-demo language, stacked pricing, and optimized hero
 - Live HTTP verification: Home, Coaching, About, Pricing, Results, FAQ, Start, and hero image returned 200
 - Browser verification: desktop hero, navigation, stacked price presentation, completed safe inquiry result, storefront Featured/Available state, preview image, detail modal, and checkout pricing
+
+
+## Homepage image audit — October 19, 2026
+
+Added three distinct supporting stock photographs to the homepage, with responsive layout, descriptive alt text, explicit dimensions, lazy loading and local optimized WebP assets. Existing hero imagery remains. Source and license references are in `PHOTO-SOURCES.md`. Standing rule: every homepage should contain four to five distinct, relevant photographs; repeated hero crops and logos do not count.

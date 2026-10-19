@@ -23,3 +23,8 @@ None connected. Actual vendor and credentials must be confirmed with the client;
 ## Future visual variants
 
 Explore a bright editorial version and a more local documentary photography version after the core workflow is customized.
+
+
+## Homepage image audit — October 19, 2026
+
+Added three distinct supporting stock photographs to the homepage, with responsive layout, descriptive alt text, explicit dimensions, lazy loading and local optimized WebP assets. Existing hero imagery remains. Source and license references are in `PHOTO-SOURCES.md`. Standing rule: every homepage should contain four to five distinct, relevant photographs; repeated hero crops and logos do not count.

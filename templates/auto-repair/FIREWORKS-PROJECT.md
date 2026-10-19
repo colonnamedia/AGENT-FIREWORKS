@@ -38,3 +38,8 @@ Run `python build.py` after source changes. Local QA passed for five pages' titl
 Alternative hero concepts: diagnostic bay close-up, technician explaining an estimate to a driver, or bright daylight shop exterior. Preserve the service workflow while tailoring imagery and content to the client.
 
 Next chat prompt: Treat this file as project context, inspect repository changes since the recorded commit, preserve Vercel hosting and demo-only integration boundaries, work on a branch and preview, and publish client changes only with Anthony's approval.
+
+
+## Homepage image audit — October 19, 2026
+
+Added three distinct supporting stock photographs to the homepage, with responsive layout, descriptive alt text, explicit dimensions, lazy loading and local optimized WebP assets. Existing hero imagery remains. Source and license references are in `PHOTO-SOURCES.md`. Standing rule: every homepage should contain four to five distinct, relevant photographs; repeated hero crops and logos do not count.

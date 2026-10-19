@@ -15,3 +15,8 @@
 - Source: https://github.com/colonnamedia/AGENT-FIREWORKS/tree/main/templates/painting — initial GitHub commit `b16dc543bd811fd3c9d7b1cd0ce49522e7d882be` (local build commit `100eb297c5d00051af5f8c5bce4e22795e019503`). Storefront source commit `7fbfa4430a36c38ba0ae11ea821ee16b26a312ca` adds an idempotent database seed. Production catalog must be checked after Render deploy.
 
 The FireWorks template is a sample. Client-specific form delivery, real testimonials, coverage, hours, pricing, licenses and emergency availability must not be inferred from this demo.
+
+
+## Homepage image audit — October 19, 2026
+
+Added three distinct supporting stock photographs to the homepage, with responsive layout, descriptive alt text, explicit dimensions, lazy loading and local optimized WebP assets. Existing hero imagery remains. Source and license references are in `PHOTO-SOURCES.md`. Standing rule: every homepage should contain four to five distinct, relevant photographs; repeated hero crops and logos do not count.
