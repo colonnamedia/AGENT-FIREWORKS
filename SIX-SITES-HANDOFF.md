@@ -13,7 +13,7 @@ Built for Anthony on 19 October 2026. Repository: https://github.com/colonnamedi
 
 ## Exact tested state
 
-Implementation commit: pending upload of this tested source tree; recorded in the next handoff commit. Each per-template FIREWORKS-PROJECT.md describes the implementation and points to this batch handoff for its SHA.
+Implementation commit: `9a71a7e0bd0df57ed79f28b7ae6f883912d8a307`. This documentation follow-up records that exact tested implementation; no runtime files changed. Resolve the handoff revision with `git log -1 -- SIX-SITES-HANDOFF.md`. All six per-template handoffs record the implementation SHA. Fresh clean builds also passed; see SIX-SITES-VALIDATION.json for route metadata and output hashes.
 
 ## What is included
 

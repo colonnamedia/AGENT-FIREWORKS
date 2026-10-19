@@ -1,0 +1,290 @@
+[
+  {
+    "template": "tree-service",
+    "implementation_commit": "9a71a7e0bd0df57ed79f28b7ae6f883912d8a307",
+    "public_routes": [
+      {
+        "path": "/",
+        "title": "Ridge & Root | Tree service Website Demo",
+        "description": "Explore the fictional Ridge & Root tree service website: services, approach and a local inquiry preview. No requests are sent.",
+        "canonical": "https://tree-service.fireworks-demo.example/"
+      },
+      {
+        "path": "/services/",
+        "title": "Tree care | Ridge & Root Demo",
+        "description": "Explore Ridge & Root service examples, scope questions and next steps. Fictional template with no live inquiry delivery.",
+        "canonical": "https://tree-service.fireworks-demo.example/services/"
+      },
+      {
+        "path": "/process/",
+        "title": "The Process | Ridge & Root Demo",
+        "description": "How the fictional Ridge & Root inquiry and planning process works, with practical questions to discuss before agreeing a scope.",
+        "canonical": "https://tree-service.fireworks-demo.example/process/"
+      },
+      {
+        "path": "/field-notes/",
+        "title": "Field notes | Ridge & Root Demo",
+        "description": "About the fictional Ridge & Root approach, with illustrative photography and client information to confirm before launch.",
+        "canonical": "https://tree-service.fireworks-demo.example/field-notes/"
+      },
+      {
+        "path": "/assessment/",
+        "title": "Tree assessment Preview | Ridge & Root Demo",
+        "description": "Try the Ridge & Root local request preview. No information is sent or stored and no appointment or service is booked.",
+        "canonical": "https://tree-service.fireworks-demo.example/assessment/"
+      }
+    ],
+    "pages_passed": 5,
+    "homepage_distinct_photos": 5,
+    "javascript_syntax": "passed",
+    "browser_qa": "blocked: managed preview proc mount denied",
+    "html_sha256": {
+      "index.html": "70ecb1c8ccb1f9bf6add97d3b6ad57d097f64f4f8bc187591151ad61f1e484e1",
+      "404.html": "9a81ff790c73e738431d7746107d5ad17e5442dccbc12d2bc926477ad383ccd8",
+      "services/index.html": "ab96ac54c328f8ac6745b5d246ea06ea86579bb4ddc85d204b445e9b6c1395f8",
+      "assessment/index.html": "a012cade4ea288fa15b282baf1f3151659a19a39e4f93862bb5047ff777c97f5",
+      "field-notes/index.html": "8d32bb8f4dd93cfdb306a0a1812518a2df797d0f3d1ed39184412418c6e6113a",
+      "process/index.html": "1d9a72838bf52e166fef8bcd1d681a2e5febd76847993ee74c5a0f18bdd4c9ff"
+    }
+  },
+  {
+    "template": "moving-company",
+    "implementation_commit": "9a71a7e0bd0df57ed79f28b7ae6f883912d8a307",
+    "public_routes": [
+      {
+        "path": "/",
+        "title": "Next Chapter | Moving company Website Demo",
+        "description": "Explore the fictional Next Chapter moving company website: services, approach and a local inquiry preview. No requests are sent.",
+        "canonical": "https://moving-company.fireworks-demo.example/"
+      },
+      {
+        "path": "/services/",
+        "title": "Moving services | Next Chapter Demo",
+        "description": "Explore Next Chapter service examples, scope questions and next steps. Fictional template with no live inquiry delivery.",
+        "canonical": "https://moving-company.fireworks-demo.example/services/"
+      },
+      {
+        "path": "/process/",
+        "title": "The Process | Next Chapter Demo",
+        "description": "How the fictional Next Chapter inquiry and planning process works, with practical questions to discuss before agreeing a scope.",
+        "canonical": "https://moving-company.fireworks-demo.example/process/"
+      },
+      {
+        "path": "/moving-guide/",
+        "title": "Moving guide | Next Chapter Demo",
+        "description": "About the fictional Next Chapter approach, with illustrative photography and client information to confirm before launch.",
+        "canonical": "https://moving-company.fireworks-demo.example/moving-guide/"
+      },
+      {
+        "path": "/moving-plan/",
+        "title": "Moving plan Preview | Next Chapter Demo",
+        "description": "Try the Next Chapter local request preview. No information is sent or stored and no appointment or service is booked.",
+        "canonical": "https://moving-company.fireworks-demo.example/moving-plan/"
+      }
+    ],
+    "pages_passed": 5,
+    "homepage_distinct_photos": 5,
+    "javascript_syntax": "passed",
+    "browser_qa": "blocked: managed preview proc mount denied",
+    "html_sha256": {
+      "index.html": "e173a8ca720437efa1d5ef295956ac411fcbdeea47f6e5e88a8f0539142bcc5b",
+      "404.html": "4b0d259c54f1d2aa8b09724c0c5c00c0ce78ea512f2bc6cf7826eb30622508fe",
+      "moving-plan/index.html": "92a2cdee618dd4bf614cc58331778b65213106e441b66927d17a58f1d565f2cf",
+      "services/index.html": "f80ac592916ff579fe245a10e734dd1231d6fc611283e7d0f17b83768e2abb0b",
+      "process/index.html": "569b0ea09fffa8ba4a41162f0885546c4fe0f66da0ae1c494b821137fd2036a0",
+      "moving-guide/index.html": "3d7d4419def3945893f493dec2201dfa54d68adef4cfdf33ab50446b8598938b"
+    }
+  },
+  {
+    "template": "garage-doors",
+    "implementation_commit": "9a71a7e0bd0df57ed79f28b7ae6f883912d8a307",
+    "public_routes": [
+      {
+        "path": "/",
+        "title": "Liftline | Garage door company Website Demo",
+        "description": "Explore the fictional Liftline garage door company website: services, approach and a local inquiry preview. No requests are sent.",
+        "canonical": "https://garage-doors.fireworks-demo.example/"
+      },
+      {
+        "path": "/services/",
+        "title": "Door services | Liftline Demo",
+        "description": "Explore Liftline service examples, scope questions and next steps. Fictional template with no live inquiry delivery.",
+        "canonical": "https://garage-doors.fireworks-demo.example/services/"
+      },
+      {
+        "path": "/process/",
+        "title": "The Process | Liftline Demo",
+        "description": "How the fictional Liftline inquiry and planning process works, with practical questions to discuss before agreeing a scope.",
+        "canonical": "https://garage-doors.fireworks-demo.example/process/"
+      },
+      {
+        "path": "/door-guide/",
+        "title": "Door guide | Liftline Demo",
+        "description": "About the fictional Liftline approach, with illustrative photography and client information to confirm before launch.",
+        "canonical": "https://garage-doors.fireworks-demo.example/door-guide/"
+      },
+      {
+        "path": "/service-request/",
+        "title": "Service request Preview | Liftline Demo",
+        "description": "Try the Liftline local request preview. No information is sent or stored and no appointment or service is booked.",
+        "canonical": "https://garage-doors.fireworks-demo.example/service-request/"
+      }
+    ],
+    "pages_passed": 5,
+    "homepage_distinct_photos": 5,
+    "javascript_syntax": "passed",
+    "browser_qa": "blocked: managed preview proc mount denied",
+    "html_sha256": {
+      "index.html": "a619442a585bca2024aa61edc67a143e15b215112d0ccf77301d93e82591d7db",
+      "404.html": "0462891dc4fb585ebf36c48bfe9596e473a85a37b8d86f19082bfaf3a687f49b",
+      "service-request/index.html": "f84cf4e252e7ec747b0c9425b0ac3e5c0f4db2b3030140373e1e826a75e541f8",
+      "services/index.html": "cebf73eccbc1b280e71f08d9f6b4573be9cf71e7bb6e93069545075eef54fe91",
+      "door-guide/index.html": "98ba5bb1ecf78ceb5fcb652842db32f7a7fc0546001bbd4aefd13ae8948b69d1",
+      "process/index.html": "8768a7c557bd3e02fe8c1e4459657e387c6e11b069a86b934ad4a00be621202c"
+    }
+  },
+  {
+    "template": "law-firm",
+    "implementation_commit": "9a71a7e0bd0df57ed79f28b7ae6f883912d8a307",
+    "public_routes": [
+      {
+        "path": "/",
+        "title": "Alder & Stone | Law firm Website Demo",
+        "description": "Explore the fictional Alder & Stone law firm website: services, approach and a local inquiry preview. No requests are sent.",
+        "canonical": "https://law-firm.fireworks-demo.example/"
+      },
+      {
+        "path": "/services/",
+        "title": "Practice areas | Alder & Stone Demo",
+        "description": "Explore Alder & Stone service examples, scope questions and next steps. Fictional template with no live inquiry delivery.",
+        "canonical": "https://law-firm.fireworks-demo.example/services/"
+      },
+      {
+        "path": "/process/",
+        "title": "The Process | Alder & Stone Demo",
+        "description": "How the fictional Alder & Stone inquiry and planning process works, with practical questions to discuss before agreeing a scope.",
+        "canonical": "https://law-firm.fireworks-demo.example/process/"
+      },
+      {
+        "path": "/the-firm/",
+        "title": "The firm | Alder & Stone Demo",
+        "description": "About the fictional Alder & Stone approach, with illustrative photography and client information to confirm before launch.",
+        "canonical": "https://law-firm.fireworks-demo.example/the-firm/"
+      },
+      {
+        "path": "/consultation/",
+        "title": "Consultation Preview | Alder & Stone Demo",
+        "description": "Try the Alder & Stone local request preview. No information is sent or stored and no appointment or service is booked.",
+        "canonical": "https://law-firm.fireworks-demo.example/consultation/"
+      }
+    ],
+    "pages_passed": 5,
+    "homepage_distinct_photos": 5,
+    "javascript_syntax": "passed",
+    "browser_qa": "blocked: managed preview proc mount denied",
+    "html_sha256": {
+      "index.html": "09d7a673b31e6fc7375b6e6b91cff69daa8aa13ef11f6933796686916ace3e5d",
+      "404.html": "fa8e14a4418bc84851144fedd0602892d4162481842bf9b07fbe64602444dda3",
+      "services/index.html": "d15908db0ca7f524c2bfb20186d061ccc19363c819827129da402010b2529e85",
+      "consultation/index.html": "be59c9dde0bfe8e707fc5a4723acca6e94d8ddaf41388f5a2b0fb946e8bdfde7",
+      "the-firm/index.html": "e3ae8e3c1d1e45098e04451244d7b7049fb95af529aeaf2810036f3155ce87f0",
+      "process/index.html": "4de4493f8a3bfe2f4e455c448a05d0f14190b8bf74b7a8598953419fb7437b6f"
+    }
+  },
+  {
+    "template": "massage-studio",
+    "implementation_commit": "9a71a7e0bd0df57ed79f28b7ae6f883912d8a307",
+    "public_routes": [
+      {
+        "path": "/",
+        "title": "Stillwater | Massage studio Website Demo",
+        "description": "Explore the fictional Stillwater massage studio website: services, approach and a local inquiry preview. No requests are sent.",
+        "canonical": "https://massage-studio.fireworks-demo.example/"
+      },
+      {
+        "path": "/services/",
+        "title": "Massage sessions | Stillwater Demo",
+        "description": "Explore Stillwater service examples, scope questions and next steps. Fictional template with no live inquiry delivery.",
+        "canonical": "https://massage-studio.fireworks-demo.example/services/"
+      },
+      {
+        "path": "/process/",
+        "title": "The Process | Stillwater Demo",
+        "description": "How the fictional Stillwater inquiry and planning process works, with practical questions to discuss before agreeing a scope.",
+        "canonical": "https://massage-studio.fireworks-demo.example/process/"
+      },
+      {
+        "path": "/the-studio/",
+        "title": "The studio | Stillwater Demo",
+        "description": "About the fictional Stillwater approach, with illustrative photography and client information to confirm before launch.",
+        "canonical": "https://massage-studio.fireworks-demo.example/the-studio/"
+      },
+      {
+        "path": "/visit/",
+        "title": "Your visit Preview | Stillwater Demo",
+        "description": "Try the Stillwater local request preview. No information is sent or stored and no appointment or service is booked.",
+        "canonical": "https://massage-studio.fireworks-demo.example/visit/"
+      }
+    ],
+    "pages_passed": 5,
+    "homepage_distinct_photos": 5,
+    "javascript_syntax": "passed",
+    "browser_qa": "blocked: managed preview proc mount denied",
+    "html_sha256": {
+      "index.html": "6b141485d413adf0c3f95416f16266b2879ec4047edf60a167d648bae6d4baa6",
+      "404.html": "b91400464e4c64e50ac8cfa4d06b89801987168e0d020305d392e7059b54800f",
+      "visit/index.html": "384c0cdc4b4ae829c73868f2fbd5a2193bdd21d61eb9eb01714f3f9aff2b2d7c",
+      "the-studio/index.html": "92d15a6732b4c8a83ed4f1eee50c1856310fd1f249ae65e7ab449aedfea92723",
+      "services/index.html": "b916af1efc92ab052e2922a38cfba41c6cea8de9302a077523d8c1fb07a1f4aa",
+      "process/index.html": "4e920f0b8c83c018161aa59f5affc4bb777170604ececdd6e29810307b41282a"
+    }
+  },
+  {
+    "template": "bookkeeping",
+    "implementation_commit": "9a71a7e0bd0df57ed79f28b7ae6f883912d8a307",
+    "public_routes": [
+      {
+        "path": "/",
+        "title": "Clear Ledger | Bookkeeping and accounting Website Demo",
+        "description": "Explore the fictional Clear Ledger bookkeeping and accounting website: services, approach and a local inquiry preview. No requests are sent.",
+        "canonical": "https://bookkeeping.fireworks-demo.example/"
+      },
+      {
+        "path": "/services/",
+        "title": "Bookkeeping services | Clear Ledger Demo",
+        "description": "Explore Clear Ledger service examples, scope questions and next steps. Fictional template with no live inquiry delivery.",
+        "canonical": "https://bookkeeping.fireworks-demo.example/services/"
+      },
+      {
+        "path": "/process/",
+        "title": "The Process | Clear Ledger Demo",
+        "description": "How the fictional Clear Ledger inquiry and planning process works, with practical questions to discuss before agreeing a scope.",
+        "canonical": "https://bookkeeping.fireworks-demo.example/process/"
+      },
+      {
+        "path": "/our-approach/",
+        "title": "Our approach | Clear Ledger Demo",
+        "description": "About the fictional Clear Ledger approach, with illustrative photography and client information to confirm before launch.",
+        "canonical": "https://bookkeeping.fireworks-demo.example/our-approach/"
+      },
+      {
+        "path": "/discovery/",
+        "title": "Discovery call Preview | Clear Ledger Demo",
+        "description": "Try the Clear Ledger local request preview. No information is sent or stored and no appointment or service is booked.",
+        "canonical": "https://bookkeeping.fireworks-demo.example/discovery/"
+      }
+    ],
+    "pages_passed": 5,
+    "homepage_distinct_photos": 5,
+    "javascript_syntax": "passed",
+    "browser_qa": "blocked: managed preview proc mount denied",
+    "html_sha256": {
+      "index.html": "ce3cfe5c038194869008c90880aa74bc3def304742adb29bd3f8579d8e6919b6",
+      "404.html": "ad9611b3d4ddd7cf6cf0e07eec5117abad8319380cacf0b146d526653b8c1a87",
+      "services/index.html": "4549be4e424fcb57a7678892cd828d091fbb7d0bc82bf9d481e2b9818dd7ba94",
+      "discovery/index.html": "78fed38a5e0283d286af8644e558353a457bf9156b2149a69b68664bfca54588",
+      "our-approach/index.html": "9ab5e3f34a22419d30afae33fa8fd2d68b15ae16c6ad834aa517973a1757fc8d",
+      "process/index.html": "8fed4d4a6feb8bd206719b1365e84a50b32f5bdac20d03fe77e96de9b16676eb"
+    }
+  }
+]

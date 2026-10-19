@@ -10,8 +10,8 @@
 | Template path | templates/moving-company |
 | Default branch | main |
 | Working branch | templates/six-industry-sites-2026-10-19 |
-| Tested implementation commit | Pending final source verification and commit; recorded in batch handoff after commit |
-| Handoff commit | This document is committed alongside the implementation; batch handoff records exact SHA |
+| Tested implementation commit | 9a71a7e0bd0df57ed79f28b7ae6f883912d8a307 |
+| Handoff commit | Documentation follow-up on the same working branch; resolve exact revision with git log -1 -- this file |
 | Hosting provider | Not provisioned; static output compatible with existing Vercel template hosting |
 | Preview URL | Internal QA only; no public deployment requested |
 | Live URL | None |
