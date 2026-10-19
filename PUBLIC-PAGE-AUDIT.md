@@ -52,7 +52,7 @@ The new-template and before-client-launch rule is in AGENTS.md and PUBLIC-HTML-S
 
 ## Separate Fireworks storefront change
 
-Preserved existing pre-rendering and extended its source to 15 public routes, including the Home alias, WebsiteCollection and both declared service pages. Its public catalog is fetched at build time and used in the HTML; empty/unavailable catalog or failed rendering now fails the build. Added one-per-route metadata checks and a matching sitemap. Local build passed 15/15. Service pages also needed the missing-upsell guard and path/slug correction. Commit ad6742c94cd6e5d5a86a9763b0417e799e81c4ce is on main. Live Render deployment verification is tracked separately below.
+Preserved existing pre-rendering and extended its source to 15 public routes, including the Home alias, WebsiteCollection and both declared service pages. Its public catalog is fetched at build time and used in the HTML; empty/unavailable catalog or failed rendering now fails the build. Added one-per-route metadata checks and a matching sitemap. Local build passed 15/15. Service pages also needed the missing-upsell guard and path/slug correction. Commit ad6742c94cd6e5d5a86a9763b0417e799e81c4ce is on main. Render automatically deployed this exact commit successfully. Live response checks passed for all 15 routes, each with HTTP 200, its intended H1, one title, one description and one canonical. WebsiteCollection includes the published catalog in its initial HTML. Browser checks passed for category filtering, Contact navigation, route metadata and empty-form validation.
 
 ## Before client launch
 
@@ -65,4 +65,4 @@ Preserved existing pre-rendering and extended its source to 15 public routes, in
 
 Initial HTML/metadata releases for all 13 changed catalog projects were verified READY and live. Follow-up deployments for Maya Lane (75ed1b998c2fa28af723b849b7d7aff9bb1e0831), Travel (15c9e0a3090cd1736864967e963ce0f107e6b990), and Sudor (a4fe311876149fefd8b806ae36bb9484eb68485f) remained QUEUED at the last check. The first two fix mobile link-card overflow; Sudor adds the quote H1. These follow-up changes must be checked when the queue clears.
 
-The storefront commit is on main and builds successfully locally. Render's public domain still served the prior page at the last check. The Render dashboard requires sign-in, so the deployment is not claimed live. The browser disconnected during the initial hosting check and then recovered. No hosting settings or credentials were changed.
+The storefront commit is verified live. Secure GitHub sign-in reached Render and showed the exact ad6742c commit deployed successfully by Auto-Deploy. Public HTTP and browser checks then confirmed the new collection and services. No hosting settings or credentials were changed.
