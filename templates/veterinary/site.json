@@ -1,0 +1,190 @@
+{
+  "name": "Goodkind Vet",
+  "descriptor": "DOGS + CATS",
+  "industry": "Veterinary Practice",
+  "theme": "goodkind",
+  "hero": "split",
+  "eyebrow": "For the little lives beside us",
+  "headline": "Their next visit.<br><em>A little more familiar.</em>",
+  "intro": "Thoughtful everyday care starts with a conversation. Explore visit options for dogs and cats and see what to expect before you arrive.",
+  "cta": "Plan a pet visit",
+  "request": "pet-visit",
+  "request_label": "Plan a visit",
+  "about_route": "meet-goodkind",
+  "about_label": "Meet Goodkind",
+  "about_title": "Care for the pet. Clarity for their person.",
+  "about_body": "Goodkind is a fictional neighborhood veterinary practice for dogs and cats. This demonstration shows a welcoming way to explain visits, introduce a practice and help pet owners ask useful questions.",
+  "tagline": "For pets. For their people.",
+  "split_title": "More than a visit.<br>A conversation about their care.",
+  "split_body": "An actual veterinary team reviews your pet history, assesses their needs and explains recommended next steps. Credentials, services, fees, hours and referral arrangements are verified for the real practice.",
+  "service_label": "Care & visits",
+  "services": [
+    [
+      "Wellness visits",
+      "An everyday starting point.",
+      "A real veterinary team can discuss the appropriate examination, preventive-care questions and follow-up for an individual pet. Services are based on the actual practice and clinician assessment.",
+      "Ask what to bring and how to help your pet arrive comfortably."
+    ],
+    [
+      "New pets & new clients",
+      "A little preparation helps.",
+      "Introduce your dog or cat, ask about the practice and confirm how records are transferred privately. Appointment length, fees and available services are confirmed before booking.",
+      "Keep medical records out of this public demonstration form."
+    ],
+    [
+      "Follow-ups & care questions",
+      "Stay clear on the next step.",
+      "An actual practice can coordinate suitable follow-ups and explain where to direct questions. This demo does not provide veterinary advice, triage or emergency monitoring.",
+      "Ask the real team which contact route to use for each kind of question."
+    ]
+  ],
+  "steps": [
+    [
+      "Tell us about the visit",
+      "Choose dog or cat and a general visit type using example details."
+    ],
+    [
+      "Confirm with the team",
+      "A real practice confirms appointment suitability, timing and fees."
+    ],
+    [
+      "Prepare for the visit",
+      "Follow the actual practice instructions for records and arrival."
+    ]
+  ],
+  "faqs": [
+    [
+      "Can I get urgent veterinary help here?",
+      "No. This demonstration is not monitored. If your pet needs urgent attention, contact an actual veterinarian or local emergency veterinary service."
+    ],
+    [
+      "Are these the practice team and patients?",
+      "No. All photographs are illustrative stock scenes, not staff or patients of this fictional practice."
+    ],
+    [
+      "Can I upload pet records?",
+      "No medical records are collected here. A real practice provides an approved private record-transfer process."
+    ],
+    [
+      "Does a date selection book a visit?",
+      "No. The calendar and form are local demonstrations with no actual appointment connection."
+    ]
+  ],
+  "gallery_title": "Small moments. Thoughtful attention.",
+  "gallery_caps": [
+    "A welcoming arrival",
+    "Visit conversations",
+    "Careful preparation"
+  ],
+  "note": "Use example pet and contact details. Do not enter medical concerns or records. This demo does not provide veterinary advice or urgent assistance.",
+  "fields": [
+    [
+      "service",
+      "Visit type",
+      "select",
+      [
+        "Wellness visit",
+        "New pet / new client",
+        "Follow-up questions"
+      ]
+    ],
+    [
+      "pet",
+      "Pet name, example only",
+      "text",
+      null
+    ],
+    [
+      "species",
+      "Pet type",
+      "select",
+      [
+        "Dog",
+        "Cat"
+      ]
+    ],
+    [
+      "client",
+      "Client status",
+      "select",
+      [
+        "New client",
+        "Existing client"
+      ]
+    ],
+    [
+      "date",
+      "Preferred visit date",
+      "date",
+      null
+    ]
+  ],
+  "tool": "pet",
+  "tool_title": "A visit, one small step at a time.",
+  "tool_intro": "Choose a pet type and explore an example visit preference. No appointments or records are transmitted.",
+  "proof": [
+    [
+      "Pets and people",
+      "Make space for questions about the visit."
+    ],
+    [
+      "An explained plan",
+      "Discuss recommendations with the actual veterinarian."
+    ],
+    [
+      "A prepared arrival",
+      "Confirm records, timing and what to bring."
+    ]
+  ],
+  "colors": [
+    "#173f42",
+    "#f3c0a3",
+    "#fffaf1",
+    "#e5eee6"
+  ],
+  "price": 1799,
+  "slug": "veterinary",
+  "demo_origin": "https://veterinary.fireworks-demo.example",
+  "photos": [
+    [
+      "hero",
+      "Veterinarian examining a dog",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "approach",
+      "Veterinarian examining a cat",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-01",
+      "Dog and owner in a waiting area",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-02",
+      "Veterinary team discussing a visit",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-03",
+      "Pet owner and dog in a welcoming veterinary reception",
+      [
+        1536,
+        1024
+      ]
+    ]
+  ]
+}

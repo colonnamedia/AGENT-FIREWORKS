@@ -1,0 +1,189 @@
+{
+  "name": "Daywell Appliance",
+  "descriptor": "SERVICE + REPAIR",
+  "industry": "Appliance Repair",
+  "theme": "daywell",
+  "hero": "split",
+  "eyebrow": "Get the everyday back on track",
+  "headline": "When home<br><em>needs a hand.</em>",
+  "intro": "An appliance that will not cooperate can interrupt the whole day. Start with the appliance, what you have noticed and a clear service request.",
+  "cta": "Request appliance service",
+  "request": "service-request",
+  "request_label": "Request service",
+  "about_route": "service-standards",
+  "about_label": "Our standards",
+  "about_title": "A clear explanation is part of the service.",
+  "about_body": "Daywell is a fictional appliance-service brand centered on practical communication. The template helps a local provider gather appliance details, explain the assessment and set expectations before any repair is approved.",
+  "tagline": "Practical help for everyday essentials.",
+  "split_title": "Know what is being checked.<br>Know what happens next.",
+  "split_body": "A service visit starts with the appliance information and the observed problem. A real technician confirms diagnostic terms, parts availability and a written repair recommendation before work is authorized.",
+  "service_label": "Appliance services",
+  "services": [
+    [
+      "Laundry appliances",
+      "Keep the daily routine moving.",
+      "Discuss washer or dryer type and the behavior you have noticed. The actual provider confirms supported brands, access, diagnostic terms and whether repair is appropriate.",
+      "Have the brand and model information available for the provider."
+    ],
+    [
+      "Kitchen appliances",
+      "A practical path to assessment.",
+      "Request an assessment of a refrigerator, dishwasher or other supported kitchen appliance. Model compatibility, warranty and parts are reviewed before any repair commitment.",
+      "Share the appliance type and general issue without attempting a repair."
+    ],
+    [
+      "Small equipment & assessment",
+      "Start with a clear question.",
+      "Ask whether a provider supports your small appliance or kitchen equipment. Accepted equipment, assessment fees and repair scope are confirmed case by case.",
+      "Confirm the equipment is supported before arranging service."
+    ]
+  ],
+  "steps": [
+    [
+      "Identify the appliance",
+      "Choose the type and provide sample brand and model details."
+    ],
+    [
+      "Confirm service terms",
+      "A real provider checks coverage, access and diagnostic fees."
+    ],
+    [
+      "Review the recommendation",
+      "Approve a written scope before any parts or repair work."
+    ]
+  ],
+  "faqs": [
+    [
+      "Are all brands supported?",
+      "No brand authorization is claimed by this fictional demo. An actual provider confirms models and brands before accepting service."
+    ],
+    [
+      "Is the repair price shown here?",
+      "No. Diagnostics, parts and repair scope depend on the appliance and are confirmed by the actual provider."
+    ],
+    [
+      "Is this an emergency service?",
+      "No emergency service or response time is represented. For immediate danger, contact the appropriate local emergency or utility service."
+    ],
+    [
+      "Does the request reserve a technician?",
+      "No. The sample form demonstrates the request flow only and does not transmit or schedule service."
+    ]
+  ],
+  "gallery_title": "The details behind the everyday.",
+  "gallery_caps": [
+    "Assessment & tools",
+    "Kitchen routines",
+    "Laundry essentials"
+  ],
+  "note": "Do not attempt electrical or gas repairs based on this demo. Use sample appliance information; no technician is dispatched.",
+  "fields": [
+    [
+      "service",
+      "Appliance category",
+      "select",
+      [
+        "Washer / dryer",
+        "Kitchen appliance",
+        "Small equipment"
+      ]
+    ],
+    [
+      "brand",
+      "Appliance brand",
+      "text",
+      null
+    ],
+    [
+      "model",
+      "Model number or “unknown”",
+      "text",
+      null
+    ],
+    [
+      "issue",
+      "Observed issue",
+      "select",
+      [
+        "Will not start",
+        "Not performing as expected",
+        "Unusual sound or leak",
+        "Ask about supported equipment"
+      ]
+    ],
+    [
+      "date",
+      "Preferred visit date",
+      "date",
+      null
+    ]
+  ],
+  "tool": "appliance",
+  "tool_title": "Start with the right information.",
+  "tool_intro": "A simple preparation checklist makes the first service conversation more useful.",
+  "proof": [
+    [
+      "Clear diagnostic terms",
+      "Understand the assessment before arranging service."
+    ],
+    [
+      "Supported equipment",
+      "Confirm model compatibility and parts availability."
+    ],
+    [
+      "Approval before repair",
+      "Discuss the recommendation and written scope."
+    ]
+  ],
+  "colors": [
+    "#152d54",
+    "#ffca63",
+    "#f7f8fa",
+    "#e8edf4"
+  ],
+  "price": 1499,
+  "slug": "appliance-repair",
+  "demo_origin": "https://appliance-repair.fireworks-demo.example",
+  "photos": [
+    [
+      "hero",
+      "Technician assessing a laundry appliance",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "approach",
+      "Kitchen appliance service conversation",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-01",
+      "Appliance assessment tools",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-02",
+      "Kitchen appliances in a domestic home",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-03",
+      "Household laundry appliances",
+      [
+        1536,
+        1024
+      ]
+    ]
+  ]
+}

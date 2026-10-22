@@ -1,0 +1,193 @@
+{
+  "name": "Cedar & Grain",
+  "descriptor": "FENCES + DECKS",
+  "industry": "Fence & Deck Contractor",
+  "theme": "cedar",
+  "hero": "cover",
+  "eyebrow": "Room for outdoor living",
+  "headline": "A better boundary.<br><em>A place to stay awhile.</em>",
+  "intro": "Privacy, gathering space and the details that make a yard feel like yours. Explore a thoughtful approach to fences, decks and outdoor carpentry.",
+  "cta": "Plan my outdoor project",
+  "request": "project",
+  "request_label": "Plan a project",
+  "about_route": "craft-and-care",
+  "about_label": "Craft & care",
+  "about_title": "Built around how you want to use the space.",
+  "about_body": "Cedar & Grain is a fictional outdoor-carpentry brand. Its starting point is the way a space should work: the view, the privacy, the route through the yard and the place where everyone gathers.",
+  "tagline": "Space to gather. Details to appreciate.",
+  "split_title": "Start with the way<br>you want to live outside.",
+  "split_body": "Material choice, dimensions, access and the surrounding property shape a useful project brief. Boundaries, permits and structural requirements are confirmed with the appropriate local professionals.",
+  "service_label": "Outdoor projects",
+  "services": [
+    [
+      "Fences & privacy",
+      "Define the space with intention.",
+      "Discuss privacy goals, approximate length, gates, views and material preferences. A real contractor confirms boundaries, local requirements and site conditions before design and installation.",
+      "Share goals and measurements, not assumptions about a property line."
+    ],
+    [
+      "Decks & gathering spaces",
+      "Make more of the outdoors.",
+      "Shape a deck brief around seating, circulation, elevation and maintenance preferences. Structure, attachment and required approvals are assessed by qualified professionals.",
+      "Note the intended use, access and approximate size."
+    ],
+    [
+      "Repairs & outdoor details",
+      "Consider what can be renewed.",
+      "Review existing fences, deck boards, gates and trim to understand condition and the scope of repair. Cosmetic changes do not establish structural safety.",
+      "Ask for an assessment of condition before choosing a repair scope."
+    ]
+  ],
+  "steps": [
+    [
+      "Picture the space",
+      "Choose the project type and compare sample material considerations."
+    ],
+    [
+      "Walk through the site",
+      "Confirm dimensions, boundaries, access and local requirements."
+    ],
+    [
+      "Refine the written proposal",
+      "Agree materials, layout, scope, timing and payment terms."
+    ]
+  ],
+  "faqs": [
+    [
+      "Which material is best?",
+      "There is no single choice for every property. Compare appearance, maintenance, exposure and budget with the contractor."
+    ],
+    [
+      "Do I need a permit?",
+      "Requirements vary by project and location. The actual contractor and local authority should confirm the requirements."
+    ],
+    [
+      "Are these completed projects?",
+      "No. The gallery uses illustrative stock scenes to show a presentation style, not work completed by this fictional company."
+    ],
+    [
+      "Is the planning form an estimate?",
+      "No. It is a local project brief. A real estimate requires site review and an agreed scope."
+    ]
+  ],
+  "gallery_title": "Wood, light and room to gather.",
+  "gallery_caps": [
+    "Privacy & boundaries",
+    "Outdoor living",
+    "Gates & joinery"
+  ],
+  "note": "This sample brief is not a structural assessment, permit review or contractor estimate.",
+  "fields": [
+    [
+      "service",
+      "Project type",
+      "select",
+      [
+        "Fence & privacy",
+        "Deck & gathering space",
+        "Repair & outdoor detail"
+      ]
+    ],
+    [
+      "material",
+      "Material preference",
+      "select",
+      [
+        "Natural wood",
+        "Composite / low-maintenance",
+        "Compare options"
+      ]
+    ],
+    [
+      "size",
+      "Approximate length or area",
+      "text",
+      null
+    ],
+    [
+      "budget",
+      "Planning budget",
+      "select",
+      [
+        "Under $5,000",
+        "$5,000–$15,000",
+        "$15,000+",
+        "Discuss the scope first"
+      ]
+    ],
+    [
+      "date",
+      "Preferred consultation date",
+      "date",
+      null
+    ]
+  ],
+  "tool": "cedar",
+  "tool_title": "Choose the feel. Consider the upkeep.",
+  "tool_intro": "Compare material considerations and turn a preference into a sample project brief.",
+  "proof": [
+    [
+      "Use comes first",
+      "Design around privacy, gathering and access."
+    ],
+    [
+      "Details discussed",
+      "Materials and maintenance deserve a clear conversation."
+    ],
+    [
+      "Scope before build",
+      "Site conditions and approvals shape the proposal."
+    ]
+  ],
+  "colors": [
+    "#342e24",
+    "#dcb58d",
+    "#f5f0e7",
+    "#e8dfd1"
+  ],
+  "price": 1799,
+  "slug": "fence-deck",
+  "demo_origin": "https://fence-deck.fireworks-demo.example",
+  "photos": [
+    [
+      "hero",
+      "Cedar deck and privacy fence",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "approach",
+      "Carpenter inspecting a timber handrail",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-01",
+      "Timber privacy fence and gate",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-02",
+      "Outdoor gathering space",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-03",
+      "Garden gate joinery",
+      [
+        1536,
+        1024
+      ]
+    ]
+  ]
+}

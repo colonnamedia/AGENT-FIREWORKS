@@ -1,0 +1,178 @@
+{
+  "name": "Brightside Wash",
+  "descriptor": "EXTERIOR CLEANING",
+  "industry": "Pressure Washing",
+  "theme": "wash",
+  "hero": "split",
+  "eyebrow": "A fresh look starts outside",
+  "headline": "Bring the bright<br><em>back home.</em>",
+  "intro": "House siding, steps and outdoor surfaces. Start with the spaces you want cleaned and a plan that suits the material.",
+  "cta": "Build my cleaning quote",
+  "request": "quote",
+  "request_label": "Get a quote",
+  "about_route": "our-approach",
+  "about_label": "Our approach",
+  "about_title": "Care for the surface. Respect the home.",
+  "about_body": "Brightside Wash is a fictional exterior-cleaning brand built around a simple idea: the surface determines the method. This demonstration shows how a local company can explain its scope before the work begins.",
+  "tagline": "A little care. A brighter first impression.",
+  "split_title": "One home.<br>Different surfaces.",
+  "split_body": "Painted siding, concrete and timber need different approaches. Discuss condition, access, nearby plants and water availability before agreeing a written cleaning scope.",
+  "service_label": "Cleaning services",
+  "services": [
+    [
+      "House washing",
+      "Freshen the everyday view.",
+      "A house-wash conversation starts with siding material, visible buildup, access and the condition of painted surfaces. The provider confirms the method after assessment.",
+      "Note siding type, height and any delicate areas."
+    ],
+    [
+      "Driveways & paths",
+      "Make the approach feel cared for.",
+      "Plan cleaning around the type and condition of paving, drainage and nearby surfaces. Stains and existing wear are assessed before any outcome is promised.",
+      "Share approximate size and drainage access."
+    ],
+    [
+      "Decks & outdoor details",
+      "Give outdoor spaces some attention.",
+      "Steps, timber decks and exterior details have their own care requirements. Cleaning and finishing are scoped separately so expectations stay clear.",
+      "Mention timber condition, coatings and anything fragile nearby."
+    ]
+  ],
+  "steps": [
+    [
+      "Tell us what needs attention",
+      "Choose surfaces and approximate size using the quote preview."
+    ],
+    [
+      "Review the right approach",
+      "A real provider checks condition, access, water and the cleaning method."
+    ],
+    [
+      "Confirm the written scope",
+      "Agree price, preparation, timing and cleanup before service."
+    ]
+  ],
+  "faqs": [
+    [
+      "Is the quote calculator a fixed price?",
+      "No. It uses clearly labeled sample figures to demonstrate a quote experience. A real provider confirms scope and pricing after reviewing the property."
+    ],
+    [
+      "Can every surface be pressure washed?",
+      "The cleaning method must be selected for the actual surface and condition. This site does not provide do-it-yourself cleaning instructions."
+    ],
+    [
+      "Will every mark disappear?",
+      "No result is guaranteed here. Existing wear and staining should be discussed before the provider agrees a scope."
+    ],
+    [
+      "Does this demo book a visit?",
+      "No. All quote and date selections stay on this page and create no booking."
+    ]
+  ],
+  "gallery_title": "Surfaces, spaces and the details between.",
+  "gallery_caps": [
+    "Steps & paving",
+    "Decks & outdoor details",
+    "Equipment & preparation"
+  ],
+  "note": "Use example property details. This preview does not send a quote request or reserve a visit.",
+  "fields": [
+    [
+      "service",
+      "Main surface",
+      "select",
+      [
+        "House washing",
+        "Driveways & paths",
+        "Decks & outdoor details"
+      ]
+    ],
+    [
+      "size",
+      "Approximate area, square feet",
+      "number",
+      null
+    ],
+    [
+      "location",
+      "General service area",
+      "text",
+      null
+    ],
+    [
+      "date",
+      "Preferred visit date",
+      "date",
+      null
+    ]
+  ],
+  "tool": "wash",
+  "tool_title": "Start with the surfaces.",
+  "tool_intro": "Explore a sample cleaning estimate, then carry your service choice into a local request preview.",
+  "proof": [
+    [
+      "Surface first",
+      "The material and condition guide the conversation."
+    ],
+    [
+      "Scope in writing",
+      "Cleaning areas and exclusions belong in a clear plan."
+    ],
+    [
+      "A considered finish",
+      "Agree preparation and cleanup before work begins."
+    ]
+  ],
+  "colors": [
+    "#102f43",
+    "#c9f3ee",
+    "#f5faf9",
+    "#e5f0f0"
+  ],
+  "price": 1499,
+  "slug": "pressure-washing",
+  "demo_origin": "https://pressure-washing.fireworks-demo.example",
+  "photos": [
+    [
+      "hero",
+      "Exterior-cleaning technician working beside a house",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "approach",
+      "Property cleaning consultation",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-01",
+      "Stone steps and paved garden path",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-02",
+      "Timber deck and outdoor details",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-03",
+      "Exterior-cleaning equipment",
+      [
+        1536,
+        1024
+      ]
+    ]
+  ]
+}

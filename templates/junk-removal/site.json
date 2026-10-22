@@ -1,0 +1,177 @@
+{
+  "name": "Roomwell",
+  "descriptor": "JUNK REMOVAL",
+  "industry": "Junk Removal",
+  "theme": "room",
+  "hero": "split",
+  "eyebrow": "Less in the way. More room to live.",
+  "headline": "Make room<br>for <em>what’s next.</em>",
+  "intro": "The old sofa. The packed garage. The items you keep meaning to move. Start with a clear list and a practical pickup plan.",
+  "cta": "Plan my pickup",
+  "request": "pickup",
+  "request_label": "Plan a pickup",
+  "about_route": "our-way",
+  "about_label": "Our way",
+  "about_title": "A useful next step for the things in your way.",
+  "about_body": "Roomwell is a fictional removal company with a friendly, practical approach. This template brings the item list, access questions and pickup preferences into one clear conversation.",
+  "tagline": "Clear the space. Keep the possibilities.",
+  "split_title": "A little less clutter.<br>A lot more possibility.",
+  "split_body": "A useful removal plan accounts for bulky items, stairs, parking and material restrictions. Donation and recycling options depend on item condition and local facilities; they are confirmed for each job.",
+  "service_label": "Removal services",
+  "services": [
+    [
+      "Furniture & bulky items",
+      "The big things, considered.",
+      "Discuss sofas, tables and other bulky household items with attention to access, dimensions and the route out. Final acceptance and handling are confirmed by the provider.",
+      "Note stairs, narrow doorways and anything that needs disassembly."
+    ],
+    [
+      "Garage & room clearouts",
+      "Turn a pile into a plan.",
+      "Start with an item list and photos of the area. A real crew reviews volume, access, loading and material restrictions before providing a written estimate.",
+      "Separate items to keep before agreeing what is going."
+    ],
+    [
+      "Bagged clutter & sorting",
+      "A clearer way to clear out.",
+      "Discuss bagged general household material and suitable cardboard. Hazardous materials, liquids and restricted waste require an appropriate specialist.",
+      "Do not include chemicals, batteries, sharps or unidentified waste in this preview."
+    ]
+  ],
+  "steps": [
+    [
+      "Choose the items",
+      "Build a short sample inventory and add optional local photos."
+    ],
+    [
+      "Check access and acceptance",
+      "A real provider confirms materials, stairs, parking and load size."
+    ],
+    [
+      "Agree the pickup",
+      "Confirm scope, disposal arrangements, price and timing before collection."
+    ]
+  ],
+  "faqs": [
+    [
+      "Do you take every type of material?",
+      "No. A real provider defines accepted and excluded materials. Hazardous or restricted waste needs the appropriate specialist."
+    ],
+    [
+      "Is donation or recycling guaranteed?",
+      "No. Suitability depends on item condition and the facilities available. The provider should explain the intended handling."
+    ],
+    [
+      "Can I add photographs?",
+      "Yes, as a local preview only. Image files are not uploaded or transmitted, and are cleared when the page closes."
+    ],
+    [
+      "Does choosing a date book a truck?",
+      "No. This is a demonstration of a pickup request, with no truck availability or booking connection."
+    ]
+  ],
+  "gallery_title": "From bulky items to usable space.",
+  "gallery_caps": [
+    "Access & collection",
+    "Cardboard & sorting",
+    "Room to use again"
+  ],
+  "note": "Sample items only. No collection is arranged, no price is confirmed and no files leave your browser.",
+  "fields": [
+    [
+      "service",
+      "Pickup type",
+      "select",
+      [
+        "Furniture & bulky items",
+        "Garage & room clearout",
+        "Bagged clutter & cardboard"
+      ]
+    ],
+    [
+      "access",
+      "Access to the items",
+      "select",
+      [
+        "Ground floor",
+        "Stairs",
+        "Elevator",
+        "Outdoor pickup"
+      ]
+    ],
+    [
+      "date",
+      "Preferred pickup date",
+      "date",
+      null
+    ]
+  ],
+  "tool": "junk",
+  "tool_title": "What is taking up space?",
+  "tool_intro": "Build an example item list. A real crew would confirm volume, accepted materials and price.",
+  "proof": [
+    [
+      "An item-by-item plan",
+      "Start with what is going and what stays."
+    ],
+    [
+      "Access considered",
+      "Stairs, doors and parking affect the scope."
+    ],
+    [
+      "No disposal assumptions",
+      "Material handling is confirmed for the job."
+    ]
+  ],
+  "colors": [
+    "#202d24",
+    "#eeb85e",
+    "#f6f4e9",
+    "#e5e9dc"
+  ],
+  "price": 1499,
+  "slug": "junk-removal",
+  "demo_origin": "https://junk-removal.fireworks-demo.example",
+  "photos": [
+    [
+      "hero",
+      "Removal team handling a sofa",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "approach",
+      "Planning a household clearout",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-01",
+      "Bagged household clutter beside a van",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-02",
+      "Cardboard prepared for sorting",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-03",
+      "Open garage with organized storage",
+      [
+        1536,
+        1024
+      ]
+    ]
+  ]
+}

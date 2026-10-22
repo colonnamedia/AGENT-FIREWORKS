@@ -1,0 +1,185 @@
+{
+  "name": "Common Ground",
+  "descriptor": "CHIROPRACTIC",
+  "industry": "Chiropractic Practice",
+  "theme": "common",
+  "hero": "editorial",
+  "eyebrow": "A thoughtful first conversation",
+  "headline": "Care begins<br>with <em>being heard.</em>",
+  "intro": "A welcoming place to ask questions, discuss your goals and understand the next step. Explore a calm, straightforward first-visit experience.",
+  "cta": "Explore a first visit",
+  "request": "first-visit",
+  "request_label": "First visit",
+  "about_route": "the-practice",
+  "about_label": "The practice",
+  "about_title": "A conversation before a care plan.",
+  "about_body": "Common Ground is a fictional chiropractic practice. This demonstration focuses on the patient experience: listening, explaining the assessment and making space for informed questions. No treatment results or practitioner credentials are represented.",
+  "tagline": "Questions welcome. Care considered.",
+  "split_title": "Understand the visit.<br>Ask what matters to you.",
+  "split_body": "An actual clinician reviews history, performs an appropriate assessment and explains suitable options, alternatives and consent. This demonstration does not determine whether care is appropriate for anyone.",
+  "service_label": "Visit pathways",
+  "services": [
+    [
+      "New-patient conversation",
+      "A place to start.",
+      "A new-patient visit would give you space to discuss goals, review the practice approach and ask about the assessment. Any clinical history belongs in an approved private intake process.",
+      "Ask what the visit includes, how long it takes and what fees apply."
+    ],
+    [
+      "Assessment & explanation",
+      "Understand the recommendation.",
+      "A licensed clinician determines the appropriate assessment and discusses findings, suitable options and any need for referral. This demo offers no diagnosis or clinical recommendation.",
+      "Ask about options, alternatives and consent before deciding."
+    ],
+    [
+      "Follow-up visits",
+      "Review the next step together.",
+      "A real practice reviews progress and whether a proposed care plan remains appropriate. Visits and expectations are tailored by the clinician, without an outcome guarantee.",
+      "Discuss questions, scheduling and reassessment with the actual practice."
+    ]
+  ],
+  "steps": [
+    [
+      "Choose a visit preference",
+      "Explore example dates and morning or afternoon preferences."
+    ],
+    [
+      "Speak with the practice",
+      "A real team confirms suitability, fees and the actual appointment."
+    ],
+    [
+      "Complete private intake",
+      "Clinical information is collected only through the approved patient process."
+    ]
+  ],
+  "faqs": [
+    [
+      "Can I discuss symptoms through this form?",
+      "Please do not enter health information here. The demo only collects example contact and visit preferences locally."
+    ],
+    [
+      "Is this a diagnosis or treatment recommendation?",
+      "No. Only an appropriately licensed clinician can assess an individual and discuss suitable care."
+    ],
+    [
+      "Are fees or insurance coverage confirmed?",
+      "No. A real practice confirms fees, accepted coverage and payment arrangements before a visit."
+    ],
+    [
+      "Is a calendar selection a confirmed appointment?",
+      "No. The example calendar displays demonstration choices and checks no actual availability."
+    ]
+  ],
+  "gallery_title": "A calm setting for a clearer conversation.",
+  "gallery_caps": [
+    "Movement & guidance",
+    "Questions & assessment",
+    "A considered approach"
+  ],
+  "note": "Example visit preferences only. Do not provide symptoms, medical history or insurance identifiers. This demo offers no medical advice.",
+  "fields": [
+    [
+      "service",
+      "Visit preference",
+      "select",
+      [
+        "New-patient conversation",
+        "Assessment questions",
+        "Follow-up scheduling"
+      ]
+    ],
+    [
+      "patient",
+      "Patient status",
+      "select",
+      [
+        "New patient",
+        "Existing patient"
+      ]
+    ],
+    [
+      "date",
+      "Preferred visit date",
+      "date",
+      null
+    ],
+    [
+      "time",
+      "Preferred time",
+      "select",
+      [
+        "Morning",
+        "Afternoon",
+        "Flexible"
+      ]
+    ]
+  ],
+  "tool": "appointment",
+  "tool_title": "Make the first visit feel familiar.",
+  "tool_intro": "Explore a sample visit calendar and a three-step introduction. Dates are examples, not actual availability.",
+  "proof": [
+    [
+      "Space for questions",
+      "Understand the practice approach before deciding."
+    ],
+    [
+      "Clear explanations",
+      "Assessment and options belong in a conversation."
+    ],
+    [
+      "Privacy considered",
+      "Clinical details use an approved private process."
+    ]
+  ],
+  "colors": [
+    "#29423e",
+    "#d9bda6",
+    "#f8f5ee",
+    "#e4ece5"
+  ],
+  "price": 1799,
+  "slug": "chiropractic",
+  "demo_origin": "https://chiropractic.fireworks-demo.example",
+  "photos": [
+    [
+      "hero",
+      "Practitioner and patient consultation",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "approach",
+      "Calm clinical consultation space",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-01",
+      "Practitioner guiding a comfortable movement",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-02",
+      "Practitioner explaining a spine model",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-03",
+      "Welcoming clinic reception",
+      [
+        1536,
+        1024
+      ]
+    ]
+  ]
+}
