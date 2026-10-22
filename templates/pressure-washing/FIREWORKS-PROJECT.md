@@ -10,13 +10,13 @@
 | Source path | templates/pressure-washing |
 | Default branch | main |
 | Working branch | templates/six-industries-2026-10-21 |
-| Tested implementation commit | Pending source commit; replaced in verification follow-up |
+| Tested implementation commit | 72df4d2b964193d4b74964c6a69cde4bc68fbff7 |
 | Handoff commit | Resolve with git log -1 -- templates/pressure-washing/FIREWORKS-PROJECT.md |
 | Hosting provider | Existing FireWorks storefront on Render |
 | Preview URL | https://fireworks-websitebuilder.com/demos/pressure-washing/ |
 | Live URL | Same fictional sales-demo URL; not a client production site |
-| Live-site status | Publication pending validation |
-| Last verified | 21 October 2026 |
+| Live-site status | Live as a Featured/Available fictional demo; all five routes and five image assets checked |
+| Last verified | 22 October 2026 |
 
 ## Goal and approved scope
 
@@ -69,7 +69,7 @@ Generate with SITE_URL=https://fireworks-websitebuilder.com/demos/pressure-washi
 
 ## Completed and verified
 
-Industry copy, five routes, five original imagery assets and local demonstration tools implemented. Verification results and exact tested implementation commit are filled in the release follow-up.
+Industry copy, five routes, five original imagery assets and local demonstration tools implemented. Live check: all five public routes return their own content and metadata, five images return image content, and unknown routes return 404. Source implementation 72df4d2b964193d4b74964c6a69cde4bc68fbff7; storefront release 6409277e6d84256bb6f9c948da848ccb0f662165.
 
 ## Remaining work
 
@@ -81,7 +81,7 @@ Keep complete HTML, route metadata, noindex on fictional demos, five distinct ho
 
 ## Known issues or blockers
 
-No production integration is connected. Browser and live verification results are recorded in the release follow-up. Pexels downloads were blocked; only original AI-generated imagery is included.
+No production integration is connected. Browser and live verification results are recorded in INDUSTRY-RELEASE-20261021.md. Pexels downloads were blocked; only original AI-generated imagery is included.
 
 ## Start the dedicated project chat with this prompt
 
