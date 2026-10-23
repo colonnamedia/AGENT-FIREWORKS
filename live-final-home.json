@@ -1,0 +1,15 @@
+{
+  "status": 200,
+  "catalog": 52,
+  "releaseIds": [
+    1632,
+    1631,
+    1630,
+    1629,
+    1628,
+    1627
+  ],
+  "authoritative": true,
+  "homepageCards": 12,
+  "uniqueIndustries": 12
+}
