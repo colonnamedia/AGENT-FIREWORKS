@@ -1,0 +1,16 @@
+{
+  "catalog": 52,
+  "html": 30,
+  "images": 30,
+  "homeGroups": [
+    "Home &amp; Property",
+    "Health &amp; Wellness",
+    "Food &amp; Hospitality",
+    "Professional Services",
+    "Creative &amp; Lifestyle",
+    "Automotive",
+    "Pets"
+  ],
+  "unknown": 404,
+  "errors": []
+}

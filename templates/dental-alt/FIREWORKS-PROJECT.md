@@ -8,10 +8,10 @@
 | Source repository | colonnamedia/AGENT-FIREWORKS |
 | Source path | templates/dental-alt |
 | Working branch | templates/six-alternates-2026-10-22 |
-| Tested implementation commit | Fill after source commit |
+| Tested implementation commit | 4206b913299c20de85d94b959608fa3a130b5e4b |
 | Hosting | Existing FireWorks storefront on Render |
 | Demo URL | https://fireworks-websitebuilder.com/demos/dental-alt/ |
-| Live status | Publication pending verification |
+| Live status | Live and verified on October 23, 2026 |
 
 ## Scope and design
 
@@ -32,3 +32,7 @@ Build with SITE_URL=https://fireworks-websitebuilder.com/demos/dental-alt and --
 ## Decisions and status
 
 Keep full response HTML, five distinct homepage photos, exact route metadata, accessible mobile menu, local-only demo controls and existing published industry version. Live browser and HTTP verification plus exact commits are recorded in the release follow-up. No real customer project should launch without Anthony's approved content and integrations.
+
+## Release verification
+
+All 30 HTML routes and 30 image responses across this release returned HTTP 200 with the expected content and metadata. Unknown demo route returned 404. Live catalog has 52 entries; all six alternates are Available and featured. Homepage has 12 representatives from 12 distinct industries; the full collection filter shows both original and alternate designs. Desktop visual review, six 390px width checks, local form summary/edit on all six, sample date selection and mobile navigation passed. Storefront publication: bc2c13b349d5c99ff753ffa1ee21279eb6aa1db3; authoritative-feed follow-up: b9856ea35b7347e7d1c80ff3f67a886b09a13533.
