@@ -1,0 +1,183 @@
+{
+  "name": "Sunday House",
+  "descriptor": "HOME CLEANING",
+  "industry": "Cleaning Services",
+  "theme": "sunday",
+  "hero": "split",
+  "eyebrow": "A fresh start for your space",
+  "headline": "Come home to<br><em>more breathing room.</em>",
+  "intro": "A light-filled approach to recurring cleaning, one-time resets and the details that help a team plan your home.",
+  "cta": "Build a cleaning plan",
+  "request": "cleaning-plan",
+  "request_label": "Plan a clean",
+  "about_route": "our-care",
+  "about_label": "Our care",
+  "about_title": "Every room has its own rhythm.",
+  "about_body": "Sunday House is a fictional home cleaning brand with an alternate bright-interior design. It shows a concise plan builder and how service-specific proof could be presented honestly.",
+  "tagline": "A home that feels easier to be in.",
+  "split_title": "A plan that starts with your rooms.",
+  "split_body": "A real team confirms room count, condition, access, supplies, exclusions and written pricing. The sample flow shows preferences without inventing a cleaning quote.",
+  "service_label": "Cleaning plans",
+  "services": [
+    [
+      "Recurring visits",
+      "A rhythm for your home.",
+      "Discuss weekly, biweekly or monthly service, the priority rooms and what remains outside the standard scope.",
+      "Note pets, access and the preferred day."
+    ],
+    [
+      "One-time reset",
+      "A deeper starting point.",
+      "A first visit may need additional time based on condition and priorities. A provider confirms the scope after reviewing the space.",
+      "Describe the rooms and particular focus areas."
+    ],
+    [
+      "Move-in / move-out",
+      "Prepare the empty space.",
+      "Confirm access, utilities, appliances, fixtures and any property-specific requirements before an agreed plan.",
+      "Ask for a written room-by-room scope."
+    ]
+  ],
+  "steps": [
+    [
+      "Choose rooms and frequency",
+      "Build an example plan below."
+    ],
+    [
+      "Clarify the details",
+      "A real provider checks size, condition and access."
+    ],
+    [
+      "Agree the visit",
+      "Confirm scope, price and timing in writing."
+    ]
+  ],
+  "faqs": [
+    [
+      "Is the plan an instant quote?",
+      "No. The local planner creates a summary, not a binding price."
+    ],
+    [
+      "Are customer reviews shown?",
+      "No invented testimonials appear. Add verified service-specific reviews with permission."
+    ],
+    [
+      "Does a date reserve a cleaner?",
+      "No. It is an example preference only."
+    ]
+  ],
+  "gallery_title": "Fresh spaces, room by room.",
+  "gallery_caps": [
+    "Kitchen care",
+    "Restful bedroom",
+    "Welcoming entry"
+  ],
+  "note": "Use example room details. Nothing is sent and no cleaner is reserved.",
+  "fields": [
+    [
+      "service",
+      "Service type",
+      "select",
+      [
+        "Recurring visits",
+        "One-time reset",
+        "Move-in / move-out"
+      ]
+    ],
+    [
+      "rooms",
+      "Rooms to include",
+      "select",
+      [
+        "1–2 rooms",
+        "3–4 rooms",
+        "5+ rooms"
+      ]
+    ],
+    [
+      "frequency",
+      "Visit frequency",
+      "select",
+      [
+        "Weekly",
+        "Every two weeks",
+        "Monthly",
+        "One time"
+      ]
+    ],
+    [
+      "date",
+      "Preferred visit date",
+      "date",
+      null
+    ]
+  ],
+  "tool": "rooms",
+  "tool_title": "A simple plan for the rooms that matter.",
+  "tool_intro": "Choose room range, frequency and date preference; a real provider would confirm the actual scope and price.",
+  "proof": [
+    [
+      "Room-specific feedback",
+      "Show verified comments tied to a service type."
+    ],
+    [
+      "Scope in plain language",
+      "Make inclusions and exclusions easy to compare."
+    ],
+    [
+      "A practical handoff",
+      "Confirm access, pets and supplies before a visit."
+    ]
+  ],
+  "colors": [
+    "#2b3f3b",
+    "#c57d55",
+    "#fffaf2",
+    "#e7f0e9"
+  ],
+  "price": 1499,
+  "slug": "cleaning-alt",
+  "demo_origin": "https://cleaning-alt.fireworks-demo.example",
+  "photos": [
+    [
+      "hero",
+      "Original illustrative scene for the cleaning services website",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "approach",
+      "Illustrative cleaning plans detail",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-01",
+      "Illustrative kitchen care",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-02",
+      "Illustrative restful bedroom",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-03",
+      "Illustrative welcoming entry",
+      [
+        1536,
+        1024
+      ]
+    ]
+  ]
+}

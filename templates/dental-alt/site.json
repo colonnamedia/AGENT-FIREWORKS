@@ -1,0 +1,181 @@
+{
+  "name": "Avenue Dental",
+  "descriptor": "DENTAL PRACTICE",
+  "industry": "Dental",
+  "theme": "avenue",
+  "hero": "panel",
+  "eyebrow": "A more comfortable first step",
+  "headline": "Feel heard.<br><em>Then make a plan.</em>",
+  "intro": "A modern first-visit path with clear information about services, the team and what to ask before scheduling.",
+  "cta": "Explore a new-patient visit",
+  "request": "new-patient",
+  "request_label": "New patients",
+  "about_route": "the-practice",
+  "about_label": "The practice",
+  "about_title": "Make room for every question.",
+  "about_body": "Avenue Dental is a fictional dental practice. This alternate direction uses a patient-led consultation, an office tour and a cautious first-visit form.",
+  "tagline": "A clearer conversation about your care.",
+  "split_title": "Know what to expect before arrival.",
+  "split_body": "An actual licensed dentist reviews history, assessment and suitable options. Medical details belong in an approved private intake system; this public demonstration collects only example visit preferences.",
+  "service_label": "Dental visits",
+  "services": [
+    [
+      "New-patient visit",
+      "A place to begin.",
+      "Ask what the initial visit includes, how long it takes and whether records are needed. Actual examination and recommendations are clinician-led.",
+      "Confirm fees and insurance directly with the practice."
+    ],
+    [
+      "Preventive care",
+      "Discuss a sensible routine.",
+      "A licensed clinician recommends services for an individual after an assessment. This demo makes no clinical promises.",
+      "Ask how follow-ups are planned."
+    ],
+    [
+      "Treatment conversation",
+      "Understand the options.",
+      "A real dentist explains findings, alternatives, risks, cost and consent before treatment. No diagnosis is offered here.",
+      "Bring questions to the appointment."
+    ]
+  ],
+  "steps": [
+    [
+      "Explore the visit",
+      "Choose the general reason and example preference."
+    ],
+    [
+      "Confirm the details",
+      "A real practice checks suitability, time and fees."
+    ],
+    [
+      "Complete secure intake",
+      "Health history is collected through an approved private process."
+    ]
+  ],
+  "faqs": [
+    [
+      "Should I enter symptoms or medical history here?",
+      "No. This public demo requests no clinical details."
+    ],
+    [
+      "Is a date a confirmed appointment?",
+      "No. Example dates check no live availability."
+    ],
+    [
+      "Are provider credentials shown?",
+      "No invented credentials or patient reviews appear. The actual practice provides verified details before launch."
+    ]
+  ],
+  "gallery_title": "A welcoming practice, room by room.",
+  "gallery_caps": [
+    "Reception and arrival",
+    "Consultation conversation",
+    "Practice space"
+  ],
+  "note": "Use example contact details only. Do not enter symptoms, medical records or insurance identifiers.",
+  "fields": [
+    [
+      "service",
+      "Visit type",
+      "select",
+      [
+        "New-patient visit",
+        "Preventive care question",
+        "Treatment conversation"
+      ]
+    ],
+    [
+      "patient",
+      "Patient status",
+      "select",
+      [
+        "New patient",
+        "Existing patient"
+      ]
+    ],
+    [
+      "date",
+      "Preferred date",
+      "date",
+      null
+    ],
+    [
+      "time",
+      "Preferred time",
+      "select",
+      [
+        "Morning",
+        "Afternoon",
+        "Flexible"
+      ]
+    ]
+  ],
+  "tool": "patient",
+  "tool_title": "See the first visit at a glance.",
+  "tool_intro": "Choose a general visit preference and an example date. No appointment or clinical intake occurs.",
+  "proof": [
+    [
+      "Meet the actual team",
+      "Add verified provider profiles and credentials."
+    ],
+    [
+      "Tour the setting",
+      "Use approved office photography before client launch."
+    ],
+    [
+      "Patient voices, verified",
+      "Present consented feedback from real sources."
+    ]
+  ],
+  "colors": [
+    "#1e4659",
+    "#c8a17c",
+    "#f7f8f5",
+    "#e3eef0"
+  ],
+  "price": 1799,
+  "slug": "dental-alt",
+  "demo_origin": "https://dental-alt.fireworks-demo.example",
+  "photos": [
+    [
+      "hero",
+      "Original illustrative scene for the dental website",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "approach",
+      "Illustrative dental visits detail",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-01",
+      "Illustrative reception and arrival",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-02",
+      "Illustrative consultation conversation",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-03",
+      "Illustrative practice space",
+      [
+        1536,
+        1024
+      ]
+    ]
+  ]
+}

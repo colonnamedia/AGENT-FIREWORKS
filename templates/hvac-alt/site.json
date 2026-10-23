@@ -1,0 +1,183 @@
+{
+  "name": "North Air",
+  "descriptor": "HEATING + COOLING",
+  "industry": "HVAC",
+  "theme": "north",
+  "hero": "panel",
+  "eyebrow": "Home comfort, made clearer",
+  "headline": "Get comfortable.<br><em>Know the plan.</em>",
+  "intro": "Repair questions, system replacement choices and a sensible first conversation for the home you live in.",
+  "cta": "Plan a service conversation",
+  "request": "service-request",
+  "request_label": "Service request",
+  "about_route": "our-standards",
+  "about_label": "Our standards",
+  "about_title": "A clear plan before any work.",
+  "about_body": "North Air is a fictional heating and cooling business. This alternate design puts the homeowner’s question first and shows a service request panel directly beside the opening story.",
+  "tagline": "Good questions. A clearer next step.",
+  "split_title": "A home is more than a thermostat.",
+  "split_body": "Comfort depends on the system, the space and the way it is used. A real contractor confirms equipment, diagnostics, scope and written terms before making a recommendation.",
+  "service_label": "Heating & cooling",
+  "services": [
+    [
+      "Repair assessment",
+      "Understand what is happening.",
+      "Describe the system and symptoms. A qualified provider assesses the equipment and explains diagnostic terms before any repair is approved.",
+      "Record equipment type and what you have observed."
+    ],
+    [
+      "Replacement planning",
+      "Compare sensible options.",
+      "Capacity, ducts, efficiency, installation constraints and budget belong in a real proposal. This preview makes no equipment recommendation.",
+      "Ask what is included in the written scope."
+    ],
+    [
+      "Maintenance conversation",
+      "Know what is checked.",
+      "A real maintenance visit follows the applicable manufacturer guidance and provider scope. Ask about filters, access and documented findings.",
+      "Find the model if safely accessible."
+    ]
+  ],
+  "steps": [
+    [
+      "Share the system",
+      "Choose heating or cooling and describe the question."
+    ],
+    [
+      "Discuss assessment",
+      "A real technician confirms equipment and diagnostic terms."
+    ],
+    [
+      "Review the recommendation",
+      "Agree scope, timing and price before work."
+    ]
+  ],
+  "faqs": [
+    [
+      "Does this panel dispatch a technician?",
+      "No. The example selection opens a local request preview and sends nothing."
+    ],
+    [
+      "Is a replacement recommended here?",
+      "No. A qualified local provider must assess the actual system."
+    ],
+    [
+      "Are reviews and credentials verified?",
+      "This demonstration contains no customer reviews or claimed licenses. A real business adds verifiable details before launch."
+    ]
+  ],
+  "gallery_title": "The system. The home. The details.",
+  "gallery_caps": [
+    "Equipment review",
+    "Outdoor unit",
+    "Comfort at home"
+  ],
+  "note": "Use example details. No technician is dispatched and no repair advice is provided.",
+  "fields": [
+    [
+      "service",
+      "What do you need?",
+      "select",
+      [
+        "Repair assessment",
+        "Replacement planning",
+        "Maintenance conversation"
+      ]
+    ],
+    [
+      "system",
+      "System",
+      "select",
+      [
+        "Heating",
+        "Cooling",
+        "Heat pump",
+        "Not sure"
+      ]
+    ],
+    [
+      "time",
+      "Preferred time window",
+      "select",
+      [
+        "Morning",
+        "Afternoon",
+        "Flexible"
+      ]
+    ],
+    [
+      "date",
+      "Preferred date",
+      "date",
+      null
+    ]
+  ],
+  "tool": "service",
+  "tool_title": "Start with your question.",
+  "tool_intro": "Choose a service path and a preferred time window. This is an example request, not a dispatch.",
+  "proof": [
+    [
+      "A diagnosis explained",
+      "Show what the assessment covers and what it does not."
+    ],
+    [
+      "Credentials to verify",
+      "A real provider adds current license and insurance details."
+    ],
+    [
+      "Reviews with sources",
+      "Connect verified customer feedback before launch."
+    ]
+  ],
+  "colors": [
+    "#173047",
+    "#db844f",
+    "#f9f5ec",
+    "#e5edf0"
+  ],
+  "price": 1499,
+  "slug": "hvac-alt",
+  "demo_origin": "https://hvac-alt.fireworks-demo.example",
+  "photos": [
+    [
+      "hero",
+      "Original illustrative scene for the hvac website",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "approach",
+      "Illustrative heating & cooling detail",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-01",
+      "Illustrative equipment review",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-02",
+      "Illustrative outdoor unit",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-03",
+      "Illustrative comfort at home",
+      [
+        1536,
+        1024
+      ]
+    ]
+  ]
+}

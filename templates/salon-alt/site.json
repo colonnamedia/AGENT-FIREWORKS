@@ -1,0 +1,182 @@
+{
+  "name": "Muse Hair",
+  "descriptor": "HAIR STUDIO",
+  "industry": "Salon / Spa",
+  "theme": "muse",
+  "hero": "editorial",
+  "eyebrow": "A look that feels like you",
+  "headline": "Good hair begins<br><em>with a conversation.</em>",
+  "intro": "Explore shape, color and styling with a studio visit designed around what you want and the time it takes.",
+  "cta": "Explore an appointment",
+  "request": "visit",
+  "request_label": "Visit preview",
+  "about_route": "the-studio",
+  "about_label": "The studio",
+  "about_title": "A place for a different point of view.",
+  "about_body": "Muse Hair is a fictional hair studio. The alternate editorial direction highlights the stylist conversation, service to stylist flow and an honest portfolio framework.",
+  "tagline": "Come as you are. Leave with a plan.",
+  "split_title": "Start with how you want to feel.",
+  "split_body": "A real stylist reviews hair history, suitability, time and maintenance before confirming services or outcomes. Profiles and portfolio photographs must belong to the actual studio.",
+  "service_label": "Hair services",
+  "services": [
+    [
+      "Cut & style",
+      "Shape for everyday life.",
+      "A consultation covers length, texture, routine and the shape you want before a service is confirmed.",
+      "Bring inspiration and questions."
+    ],
+    [
+      "Color conversation",
+      "Plan tone and upkeep.",
+      "A real stylist reviews hair history, suitability, timing and pricing. This site makes no color-result promise.",
+      "Share prior color history privately with the studio."
+    ],
+    [
+      "Occasion styling",
+      "Prepare for the moment.",
+      "Talk through the look, timing and any trial or preparation requirements with the chosen stylist.",
+      "Confirm date and arrival details."
+    ]
+  ],
+  "steps": [
+    [
+      "Choose a service",
+      "Explore the service to stylist example."
+    ],
+    [
+      "Pick a preference",
+      "Select a stylist and example date."
+    ],
+    [
+      "Confirm with the studio",
+      "A real team checks timing, suitability and pricing."
+    ]
+  ],
+  "faqs": [
+    [
+      "Are these real stylists?",
+      "No. The photos illustrate a fictional salon. Actual staff profiles require consent and accurate details."
+    ],
+    [
+      "Does the calendar show availability?",
+      "No. The dates are examples and do not reserve time."
+    ],
+    [
+      "Are portfolio results guaranteed?",
+      "No. Real portfolios need accurate service context and client consent."
+    ]
+  ],
+  "gallery_title": "The atmosphere and the artistry.",
+  "gallery_caps": [
+    "Styling details",
+    "The studio",
+    "Finished texture"
+  ],
+  "note": "No appointment is reserved. A real stylist confirms service, time and price.",
+  "fields": [
+    [
+      "service",
+      "Service",
+      "select",
+      [
+        "Cut & style",
+        "Color conversation",
+        "Occasion styling"
+      ]
+    ],
+    [
+      "stylist",
+      "Stylist preference",
+      "select",
+      [
+        "First available",
+        "Consultation specialist",
+        "Styling specialist"
+      ]
+    ],
+    [
+      "date",
+      "Preferred date",
+      "date",
+      null
+    ],
+    [
+      "time",
+      "Preferred time",
+      "select",
+      [
+        "Morning",
+        "Afternoon",
+        "Flexible"
+      ]
+    ]
+  ],
+  "tool": "stylist",
+  "tool_title": "A visit that begins with your style.",
+  "tool_intro": "Try a service, stylist preference and example date with no live booking.",
+  "proof": [
+    [
+      "Stylist introductions",
+      "Add consented portraits and actual specialties."
+    ],
+    [
+      "Portfolio with context",
+      "Show real work and service details with permission."
+    ],
+    [
+      "Verified guest feedback",
+      "Connect authentic reviews rather than placeholders."
+    ]
+  ],
+  "colors": [
+    "#3a2934",
+    "#d4a27f",
+    "#fcf7f1",
+    "#f0e5e8"
+  ],
+  "price": 1799,
+  "slug": "salon-alt",
+  "demo_origin": "https://salon-alt.fireworks-demo.example",
+  "photos": [
+    [
+      "hero",
+      "Original illustrative scene for the salon / spa website",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "approach",
+      "Illustrative hair services detail",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-01",
+      "Illustrative styling details",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-02",
+      "Illustrative the studio",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-03",
+      "Illustrative finished texture",
+      [
+        1536,
+        1024
+      ]
+    ]
+  ]
+}

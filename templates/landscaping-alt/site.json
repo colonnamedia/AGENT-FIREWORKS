@@ -1,0 +1,184 @@
+{
+  "name": "Morrow Garden",
+  "descriptor": "LANDSCAPE DESIGN",
+  "industry": "Landscaping",
+  "theme": "morrow",
+  "hero": "cover",
+  "eyebrow": "Outside, made for living",
+  "headline": "A garden to<br><em>grow into.</em>",
+  "intro": "Thoughtful outdoor spaces begin with how you want to use them. Explore planting, paths and gathering areas.",
+  "cta": "Plan my outdoor project",
+  "request": "project-plan",
+  "request_label": "Project plan",
+  "about_route": "our-perspective",
+  "about_label": "Our perspective",
+  "about_title": "Design for the way you live outside.",
+  "about_body": "Morrow Garden is a fictional landscape design and installation business. This alternate site leads with outdoor living imagery and a project planning conversation.",
+  "tagline": "Make room for a different kind of day.",
+  "split_title": "More than a planting list.",
+  "split_body": "A project connects site conditions, maintenance, materials, budget and the people who use the space. A real designer confirms feasibility and scope after visiting the property.",
+  "service_label": "Outdoor spaces",
+  "services": [
+    [
+      "Garden design",
+      "Create a cohesive landscape.",
+      "Discuss planting structure, seasonal interest, sunlight and maintenance goals before species and quantities are selected.",
+      "Share how you use the space."
+    ],
+    [
+      "Patios & paths",
+      "Connect the places you enjoy.",
+      "Material, grade, drainage, access and local requirements need a site assessment and written plan.",
+      "Gather examples of finishes you like."
+    ],
+    [
+      "Outdoor living",
+      "Make gathering space feel natural.",
+      "Explore seating, shade and movement through the space. Construction details and permits are confirmed by the provider.",
+      "List your must-haves and rough budget."
+    ]
+  ],
+  "steps": [
+    [
+      "Imagine the use",
+      "Choose the kind of project and priorities."
+    ],
+    [
+      "Visit the site",
+      "A real provider reviews conditions and constraints."
+    ],
+    [
+      "Shape the scope",
+      "Compare a concept, materials, budget and timeline."
+    ]
+  ],
+  "faqs": [
+    [
+      "Is the planner a design proposal?",
+      "No. It organizes an example brief for a future conversation."
+    ],
+    [
+      "Are project photos real work?",
+      "No. AI-generated scenes illustrate a design direction, not completed projects."
+    ],
+    [
+      "Can I book a consultation here?",
+      "The date is an example preference and checks no availability."
+    ]
+  ],
+  "gallery_title": "Paths, planting and places to linger.",
+  "gallery_caps": [
+    "Garden path",
+    "Layered planting",
+    "Outdoor gathering"
+  ],
+  "note": "No design consultation is booked. A real provider reviews site, budget and feasibility.",
+  "fields": [
+    [
+      "service",
+      "Project type",
+      "select",
+      [
+        "Garden design",
+        "Patios & paths",
+        "Outdoor living"
+      ]
+    ],
+    [
+      "budget",
+      "Planning budget",
+      "select",
+      [
+        "Exploring options",
+        "Under $10,000",
+        "$10,000–$25,000",
+        "$25,000+"
+      ]
+    ],
+    [
+      "priority",
+      "Main priority",
+      "select",
+      [
+        "Low maintenance",
+        "More gathering space",
+        "Privacy",
+        "Seasonal color"
+      ]
+    ],
+    [
+      "date",
+      "Preferred consultation date",
+      "date",
+      null
+    ]
+  ],
+  "tool": "project",
+  "tool_title": "Start with a space you can picture.",
+  "tool_intro": "Choose project type, planning budget and a sample consultation preference.",
+  "proof": [
+    [
+      "Project stories",
+      "Add real plans, constraints and outcomes with permission."
+    ],
+    [
+      "Materials in context",
+      "Explain choices and maintenance expectations."
+    ],
+    [
+      "A clear scope",
+      "Separate concept, installation and follow-up."
+    ]
+  ],
+  "colors": [
+    "#263c32",
+    "#d6ac77",
+    "#f6f2e9",
+    "#e0e9de"
+  ],
+  "price": 1799,
+  "slug": "landscaping-alt",
+  "demo_origin": "https://landscaping-alt.fireworks-demo.example",
+  "photos": [
+    [
+      "hero",
+      "Original illustrative scene for the landscaping website",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "approach",
+      "Illustrative outdoor spaces detail",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-01",
+      "Illustrative garden path",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-02",
+      "Illustrative layered planting",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-03",
+      "Illustrative outdoor gathering",
+      [
+        1536,
+        1024
+      ]
+    ]
+  ]
+}

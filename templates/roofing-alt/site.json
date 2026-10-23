@@ -1,0 +1,184 @@
+{
+  "name": "Atlas Roof",
+  "descriptor": "ROOFING + INSPECTIONS",
+  "industry": "Roofing",
+  "theme": "atlas",
+  "hero": "cover",
+  "eyebrow": "The roof over everything",
+  "headline": "A roof you can<br><em>plan around.</em>",
+  "intro": "From a repair question to a full replacement, see a clearer path to the right written scope for your home.",
+  "cta": "Request an inspection preview",
+  "request": "inspection",
+  "request_label": "Inspection",
+  "about_route": "the-work",
+  "about_label": "The work",
+  "about_title": "See the details behind the roofline.",
+  "about_body": "Atlas Roof is a fictional contractor brand. This alternate website is led by finished architecture, material details and a homeowner-focused inspection path.",
+  "tagline": "Understand the roof. Then decide.",
+  "split_title": "Look closer before you decide.",
+  "split_body": "A real contractor examines the roof and explains visible conditions, repair alternatives, material choices and the limits of the assessment. Project photos and outcomes require permission and accurate context.",
+  "service_label": "Roofing options",
+  "services": [
+    [
+      "Roof inspection",
+      "Start with the condition.",
+      "Ask what areas can be assessed, how findings will be documented and whether any access limits apply. This demo offers no diagnosis.",
+      "Share age, known leaks and relevant history."
+    ],
+    [
+      "Targeted repairs",
+      "Discuss the repair scope.",
+      "Flashing, penetrations and worn areas need actual assessment. A written proposal should explain the repair limits and warranty terms.",
+      "Ask what is included and excluded."
+    ],
+    [
+      "Full replacement",
+      "Plan the whole system.",
+      "Material, ventilation, underlayment, flashing, disposal and site protection belong in a replacement proposal.",
+      "Review sample materials and timeline with a contractor."
+    ]
+  ],
+  "steps": [
+    [
+      "Describe the concern",
+      "Choose an inspection path and add example photos locally."
+    ],
+    [
+      "Review the roof",
+      "A real professional confirms condition and access."
+    ],
+    [
+      "Compare written options",
+      "Understand scope, materials, timing and cost."
+    ]
+  ],
+  "faqs": [
+    [
+      "Can I upload roof photos?",
+      "The local preview accepts up to three example images, with no upload or transmission."
+    ],
+    [
+      "Is this an emergency response?",
+      "No. This fictional site is not monitored or connected to a contractor."
+    ],
+    [
+      "Are project stories real?",
+      "No projects or testimonials are claimed in this demo. The layout shows where approved case studies can be added."
+    ]
+  ],
+  "gallery_title": "Rooflines, materials and finishing details.",
+  "gallery_caps": [
+    "Completed roof detail",
+    "Material options",
+    "Finished roofline"
+  ],
+  "note": "No inspection is requested. Local example photos stay in the browser and are cleared on exit.",
+  "fields": [
+    [
+      "service",
+      "Project path",
+      "select",
+      [
+        "Roof inspection",
+        "Targeted repair",
+        "Full replacement"
+      ]
+    ],
+    [
+      "roofage",
+      "Approximate roof age",
+      "select",
+      [
+        "Under 10 years",
+        "10–20 years",
+        "Over 20 years",
+        "Not sure"
+      ]
+    ],
+    [
+      "concern",
+      "Main concern",
+      "select",
+      [
+        "Visible wear",
+        "Possible leak",
+        "Planning replacement",
+        "General inspection"
+      ]
+    ],
+    [
+      "date",
+      "Preferred inspection date",
+      "date",
+      null
+    ]
+  ],
+  "tool": "photos",
+  "tool_title": "Start with what you can see.",
+  "tool_intro": "Choose a path and preview up to three example photos locally; a real contractor confirms the condition.",
+  "proof": [
+    [
+      "Case studies with context",
+      "Add consented before-and-after details and real scope."
+    ],
+    [
+      "Scope and exclusions",
+      "Show what an inspection or replacement covers."
+    ],
+    [
+      "Verifiable reputation",
+      "Link actual review sources and credentials."
+    ]
+  ],
+  "colors": [
+    "#202b35",
+    "#e2ae72",
+    "#f8f5ef",
+    "#e9e5db"
+  ],
+  "price": 1799,
+  "slug": "roofing-alt",
+  "demo_origin": "https://roofing-alt.fireworks-demo.example",
+  "photos": [
+    [
+      "hero",
+      "Original illustrative scene for the roofing website",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "approach",
+      "Illustrative roofing options detail",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-01",
+      "Illustrative completed roof detail",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-02",
+      "Illustrative material options",
+      [
+        1536,
+        1024
+      ]
+    ],
+    [
+      "detail-03",
+      "Illustrative finished roofline",
+      [
+        1536,
+        1024
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,1 @@
+All five routes are complete static HTML generated from site.json at build time. Each has its own title, description, canonical, Open Graph and Twitter metadata. The demo is noindex. JavaScript adds local interactions only; page content is present in the response. Run check.py after every build and verify all routes on the final host.
