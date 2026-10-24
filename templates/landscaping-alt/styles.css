@@ -23,3 +23,13 @@ fieldset{border:0;margin:0;padding:0;min-width:0}fieldset:disabled{opacity:.65}b
 @media(max-width:600px){.theme-sunday .hero-split .hero-photo,.theme-muse .hero-editorial .hero-photo{width:calc(100% - 40px);height:330px;margin-bottom:25px}}
 
 :root{--ink:#263c32;--accent:#d6ac77;--paper:#f6f2e9;--soft:#e0e9de;}
+
+/* Keep the hero photograph visible before long copy on phones. */
+@media(max-width:600px){
+  .hero-split,.hero-editorial,.hero-panel{display:flex;flex-direction:column}
+  .hero-split .hero-photo,.hero-editorial .hero-photo,.hero-panel .hero-photo,
+  .theme-sunday .hero-split .hero-photo,.theme-muse .hero-editorial .hero-photo,
+  .theme-avenue .hero-panel .hero-photo{position:relative;inset:auto;order:0;display:block;width:calc(100% - 40px);height:270px;margin:20px auto 0;box-shadow:none}
+  .hero-split .hero-content,.hero-editorial .hero-content,.hero-panel .hero-content{order:1;min-height:0;padding-top:30px;padding-bottom:42px}
+  .hero-split .hero-photo img,.hero-editorial .hero-photo img,.hero-panel .hero-photo img{object-position:center 38%}
+}

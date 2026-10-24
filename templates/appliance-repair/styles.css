@@ -13,3 +13,13 @@ fieldset{border:0;margin:0;padding:0;min-width:0}fieldset:disabled{opacity:.65}b
 @media(max-width:1000px){.hero-split .hero-content>div{max-width:50%}.header nav{gap:11px;font-size:11px}.brand{font-size:22px}.header nav a:last-child{padding:10px}.hero-split h1{font-size:clamp(3rem,6vw,5rem)}}
 @media(max-width:850px){.hero-split .hero-photo,.hero-editorial .hero-photo,.theme-common .hero-photo,.theme-goodkind .hero-photo,.theme-room .hero-photo,.theme-wash .hero-photo,.theme-daywell .hero-photo{position:relative;inset:auto;width:calc(100% - 48px);height:400px;box-shadow:none}.hero-split .hero-content>div,.theme-common .hero-editorial .hero-content>div{max-width:100%}.header nav{font-size:14px}.trust-grid{gap:20px}.choice-grid{grid-template-columns:1fr 1fr}.interactive{padding:30px}.theme-common .hero h1{font-size:clamp(3rem,7vw,5rem)}}
 @media(max-width:600px){.trust-grid,.choice-grid,.tool-grid{grid-template-columns:1fr}.trust-grid{gap:25px}.interactive{padding:25px 20px;border-radius:0}.interactive h2{font-size:32px}.interactive output{font-size:20px}.brand{max-width:245px}.theme-common .brand,.theme-cedar .brand{font-size:24px}.hero-split .hero-photo,.hero-editorial .hero-photo,.theme-common .hero-photo,.theme-goodkind .hero-photo,.theme-room .hero-photo,.theme-wash .hero-photo,.theme-daywell .hero-photo{width:calc(100% - 40px);height:330px;margin-bottom:25px}.hero-split h1,.theme-common .hero h1{font-size:clamp(2.75rem,11.5vw,4rem)}.theme-cedar .hero-content{min-height:620px}.trust{padding-block:35px}.theme-cedar .photo-grid img{aspect-ratio:5/4}.local-photos{grid-template-columns:1fr}.material-table th,.material-table td{padding:12px}.interactive .date-grid button{flex:1;min-width:100px}.header-inner{gap:15px}}
+
+/* Keep the hero photograph visible before long copy on phones. */
+@media(max-width:600px){
+  .hero-split,.hero-editorial,.hero-panel{display:flex;flex-direction:column}
+  .hero-split .hero-photo,.hero-editorial .hero-photo,.hero-panel .hero-photo,
+  .theme-sunday .hero-split .hero-photo,.theme-muse .hero-editorial .hero-photo,
+  .theme-avenue .hero-panel .hero-photo{position:relative;inset:auto;order:0;display:block;width:calc(100% - 40px);height:270px;margin:20px auto 0;box-shadow:none}
+  .hero-split .hero-content,.hero-editorial .hero-content,.hero-panel .hero-content{order:1;min-height:0;padding-top:30px;padding-bottom:42px}
+  .hero-split .hero-photo img,.hero-editorial .hero-photo img,.hero-panel .hero-photo img{object-position:center 38%}
+}
