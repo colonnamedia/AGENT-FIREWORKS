@@ -1,0 +1,21 @@
+{
+  "tool": "built-in image generation",
+  "assets": [
+    {
+      "file": "avery-hero.webp",
+      "prompt": "Use case: photorealistic-natural. Asset: vertical hero photograph for fictional Avery Lane Training personal trainer website. An athletic adult woman trainer in her late 30s with shoulder-length dark brown hair wearing a plain black training top and muted dusty-rose leggings, confidently holding a dumbbell in a modern charcoal gym. Candid editorial fitness photography, natural human proportions, waist to head visible with breathing room around face, background softly lit in subtle pink accents. No words, logos, watermark, no resemblance to a real public figure. One single portrait photo, not a collage."
+    },
+    {
+      "file": "avery-profile.webp",
+      "prompt": "Use case: photorealistic-natural. Asset: coach profile portrait for fictional Avery Lane Training website. Friendly adult woman personal trainer in her late 30s, shoulder-length dark brown hair, plain black athletic top, standing comfortably in a dark premium gym with strength equipment softly blurred behind her. Natural expression and realistic skin texture, waist-up vertical portrait with generous space around head, soft window light and faint dusty rose accents. No text, logos, watermark, no specific real person. One single photo."
+    },
+    {
+      "file": "avery-coaching.webp",
+      "prompt": "Use case: photorealistic-natural. Asset: gallery photograph for fictional personal trainer website. Adult woman personal trainer in a black athletic top coaching an adult woman client through a controlled dumbbell exercise in a charcoal boutique gym, encouraging attentive interaction, safe neutral posture, natural proportions. Wide editorial sports photograph with warm natural light, subtle pink workout accent colors, realistic everyday fitness. No text, logos, watermarks. Single image, not collage."
+    },
+    {
+      "file": "avery-strength.webp",
+      "prompt": "Use case: photorealistic-natural. Asset: gallery portrait for fictional personal training website. Athletic adult woman in her late 30s in black workout clothing and dusty-rose accents, standing beside a squat rack after a strength training session, relaxed confident smile, modern charcoal gym, candid waist-up vertical photograph, natural proportions and authentic skin. Bright soft side light, no text, logos, watermark, no specific real person. Single image."
+    }
+  ]
+}
