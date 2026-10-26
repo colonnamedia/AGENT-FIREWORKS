@@ -6,9 +6,9 @@
 | Industry | Roofing |
 | Source | `colonnamedia/AGENT-FIREWORKS`, `templates/hearthline-roofing/` |
 | Branch | `templates/hearthline-roofing-20261026` |
-| Implementation commit | Pending source commit; update in release note after commit |
-| Host | Vercel, new Hearthline project; deployment pending |
-| Live URL | Pending deployment verification |
+| Implementation commit | `7c0e95edf09dcfca34b1518dd0ef74520a270f32` (tested implementation) |
+| Host | Vercel project `hearthline-roofing`; production deployment READY but Vercel Authentication protects it |
+| Live URL | `https://hearthline-roofing.vercel.app/` (protected, not publicly browsable) |
 | Build | `python3 build.py`, output `dist/` |
 | Public pages | `/`, `/roofing/`, `/our-approach/`, `/planning-guide/`, `/inspection-preview/`; real `/404.html` |
 | Metadata | `build.py` is the single source for title, description, canonical, social metadata, sitemap |
@@ -29,7 +29,7 @@ Warm residential design, five distinct original AI-generated illustrative photog
 
 ## Verification and launch requirements
 
-Local build and static checks cover all five routes, unique metadata, link targets, five image hashes, sitemap, 404 and JavaScript syntax. Inspect live direct routes, mobile menu and hero, slider and form before merchandising as available. For an actual client, replace fictional identity and illustrative imagery with approved materials; configure approved delivery, contact details, domain and verified social proof; then re-run the route and mobile checks.
+Local build and static checks cover all five routes, unique metadata, link targets, five image hashes, sitemap, 404 and JavaScript syntax. An authenticated Vercel fetch returned status 200 and route-specific metadata for all five routes, 200 for the hero asset and 404 for an unknown path. Browser interaction and visual mobile checks remain pending. Automatic approval review rejected removing Vercel Authentication, so do not add this protected demo to the public catalog. For an actual client, replace fictional identity and illustrative imagery with approved materials; configure approved delivery, contact details, domain and verified social proof; then re-run the route and mobile checks.
 
 ## Next-chat starting prompt
 
