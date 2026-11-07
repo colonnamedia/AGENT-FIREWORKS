@@ -25,9 +25,9 @@ PAGES = {
     <div class="hero-shade"></div>
     <div class="container hero-inner">
       <p class="eyebrow">PERSONAL TRAINING · PITTSBURGH SOUTH</p>
-      <h1>Build strength.<br><span>Own your next chapter.</span></h1>
+      <h1>Strength for<br><span>the life you lead.</span></h1>
       <p class="hero-copy">Personal coaching shaped around your goals, your starting point, and the life you actually live.</p>
-      <div class="button-row"><button class="button button-primary js-open-form">Start with a conversation <span aria-hidden="true">→</span></button><a class="button button-ghost" href="pricing.html">View coaching options</a></div>
+      <div class="button-row"><button class="button button-primary js-open-form">Talk through your goals <span aria-hidden="true">→</span></button><a class="button button-ghost" href="pricing.html">View coaching options</a></div>
       <div class="hero-proof" aria-label="Program highlights"><span>Private coaching</span><span>Goal-based plans</span><span>South Hills focus</span></div>
     </div>
   </section>

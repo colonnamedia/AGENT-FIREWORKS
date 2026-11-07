@@ -8,3 +8,18 @@
   .hero-inner{padding:34px 0 54px;background:#0b0810}
   .hero h1{font-size:clamp(44px,12vw,58px)}
 }
+
+/* Form & Fire: varied editorial photography, never a repeated card gallery. */
+.ff-story{background:#100c14;padding:76px 0 45px}
+.ff-story-split{width:min(1180px,calc(100% - 48px));margin:0 auto 28px;display:grid;grid-template-columns:1fr 1fr;min-height:440px;background:#1a1420;border:1px solid #392a40;border-radius:22px;overflow:hidden}
+.ff-story-split>img{display:block;width:100%;height:100%;min-height:440px;object-fit:cover}
+.ff-story-split>div{align-self:center;padding:clamp(32px,5vw,70px)}
+.ff-story h2{font-size:clamp(38px,4.8vw,62px);line-height:1.03;letter-spacing:-.04em;margin:0 0 22px}
+.ff-story-split p:not(.eyebrow),.ff-story-band p:not(.eyebrow){color:#d4cbd8;max-width:520px;margin:0 0 28px}
+.ff-story-reverse>img{order:2}
+.ff-story-band{position:relative;width:100%;min-height:510px;display:flex;align-items:center;margin:28px 0;color:#fff;background:#17101a;overflow:hidden}
+.ff-story-band>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:68% 38%;filter:brightness(.75)}
+.ff-story-band:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,6,15,.92),rgba(10,6,15,.22) 72%,transparent)}
+.ff-story-band>div{position:relative;z-index:1;width:min(1180px,calc(100% - 48px));margin:auto;padding:72px 0;max-width:1180px}
+.ff-story-band>div>*{max-width:550px}.ff-story-note{width:min(1180px,calc(100% - 48px));margin:16px auto 0;color:#a69aac;font-size:12px}
+@media(max-width:700px){.ff-story{padding:52px 0 32px}.ff-story-split{display:flex;flex-direction:column;width:calc(100% - 32px);min-height:0}.ff-story-split>img,.ff-story-reverse>img{order:0;height:265px;min-height:0}.ff-story-split>div{padding:32px 24px 40px}.ff-story-band{min-height:0;display:block}.ff-story-band>img{position:relative;height:300px;filter:none}.ff-story-band:after{display:none}.ff-story-band>div{width:100%;padding:36px 24px 48px;background:#17101a}.ff-story-band .button,.ff-story-split .button{width:100%}.ff-story-note{width:calc(100% - 32px)}.hero-inner{text-align:center}.hero-copy{margin-left:auto;margin-right:auto}.button-row{justify-content:center}.hero-proof{justify-content:center}.ff-story h2{font-size:clamp(36px,9vw,48px)}}
