@@ -82,3 +82,9 @@ Source is being published through the FireWorks monorepo. Verify each public rou
 ## Homepage image audit — October 19, 2026
 
 Added three distinct supporting stock photographs to the homepage, with responsive layout, descriptive alt text, explicit dimensions, lazy loading and local optimized WebP assets. Existing hero imagery remains. Source and license references are in `PHOTO-SOURCES.md`. Standing rule: every homepage should contain four to five distinct, relevant photographs; repeated hero crops and logos do not count.
+
+## Hero and homepage photo pass — November 7, 2026
+
+The homepage keeps build-generated static HTML (`python build.py`), per-route title/description/canonical metadata, and the browser-only consultation preview. The hero now leads with a consultation preview; its mobile layout places a 290px image stage above the copy. The repeated three-photo gallery was replaced with a care pathway: image-left consultation, text-left service exploration, and an image-left provider framework. Four distinct locally stored WebP photographs appear on the homepage, including the hero. Supporting images have alt text, actual intrinsic width/height attributes, and lazy loading. All are illustrative and cannot be used as real provider, patient, or result evidence.
+
+Source verification checked all five generated HTML routes for one title, description and canonical, the four local photo references, and JavaScript syntax. Live desktop/mobile visual, navigation and form interaction, direct-route and real-404 checks remain required after deployment. Do not treat source checks as public launch approval. Actual provider details, eligibility, services and secure intake must be supplied and tested by a client.
