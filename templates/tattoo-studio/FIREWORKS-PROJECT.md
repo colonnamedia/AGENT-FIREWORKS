@@ -40,3 +40,9 @@ Treat this file as source context; inspect the repository and latest commit, pre
 ## Homepage image audit — October 19, 2026
 
 Added three distinct supporting stock photographs to the homepage, with responsive layout, descriptive alt text, explicit dimensions, lazy loading and local optimized WebP assets. Existing hero imagery remains. Source and license references are in `PHOTO-SOURCES.md`. Standing rule: every homepage should contain four to five distinct, relevant photographs; repeated hero crops and logos do not count.
+
+## November 7, 2026 editorial source audit
+
+`python build.py` generates complete static HTML for five public routes, with per-route title, description and canonical metadata, a sitemap from the route list, and a standalone 404 file. The demo remains noindex. The homepage now has a shorter consultation-led hero and a varied creative-process story in place of the repeated three-photo gallery. Five distinct local photographs, including the existing illustrative botanical study, have accurate intrinsic dimensions and alt text; all below-the-fold photographs are lazy loaded. The mobile hero keeps photography above the copy. A labeled sample portfolio/review slot calls for permissioned real evidence at launch and makes no invented claim.
+
+Source checks passed for generated route files, internal links, photo paths and dimensions, unique metadata, five distinct homepage photos, sitemap, 404 file, and JavaScript syntax. The consultation handler prevents submission, uses native browser validation and produces a local-only result. Browser interaction, mobile/desktop visual checks, live direct-route responses and unknown-route HTTP 404 remain outstanding. This source revision is not deployed while the Vercel quota remains exhausted.
