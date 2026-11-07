@@ -20,3 +20,9 @@ The FireWorks template is a sample. Client-specific form delivery, real testimon
 ## Homepage image audit — October 19, 2026
 
 Added three distinct supporting stock photographs to the homepage, with responsive layout, descriptive alt text, explicit dimensions, lazy loading and local optimized WebP assets. Existing hero imagery remains. Source and license references are in `PHOTO-SOURCES.md`. Standing rule: every homepage should contain four to five distinct, relevant photographs; repeated hero crops and logos do not count.
+
+## Homepage hero and photo pass — November 7, 2026
+
+The source generator (`python build.py`) now gives the homepage a shorter project-led hero with an estimate preview CTA. The existing photo-first mobile hero is retained. The repeated three-photo card block is replaced by a wide planning image and two alternating process sections. The homepage uses four distinct locally stored WebP photographs (hero plus three supporting), with actual width/height attributes, descriptive alt text and lazy loading below the fold. All supporting photos are illustrative, never completed customer jobs.
+
+Source checks: generated five static public pages in `dist/`; each has one title, description and canonical; all four homepage photo assets exist; JavaScript syntax and `git diff --check` passed. The estimate form remains browser-only. Direct production routes, real 404, navigation/form interactions and desktop/mobile visual behavior require verification after the deployment limit resets. Do not claim this revision live from source checks alone.
