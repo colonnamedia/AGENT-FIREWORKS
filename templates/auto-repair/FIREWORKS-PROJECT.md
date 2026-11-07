@@ -39,6 +39,14 @@ Alternative hero concepts: diagnostic bay close-up, technician explaining an est
 
 Next chat prompt: Treat this file as project context, inspect repository changes since the recorded commit, preserve Vercel hosting and demo-only integration boundaries, work on a branch and preview, and publish client changes only with Anthony's approval.
 
+## November 7, 2026 editorial audit (source only)
+
+The generator in `build.py` still writes complete static HTML for five public routes. It now also writes `404.html` and `sitemap.xml` from the same route inventory and asserts one title, description and canonical per route. The host should serve those files directly; production response and 404 status still need verification after deployment. Keep the demo `noindex` choice.
+
+The homepage has a concise hero, a visible service-request CTA, two alternating photo/text chapters, a separate process photo and an explicitly labeled sample proof slot. Four distinct local photos appear with alt text and intrinsic dimensions; below-the-fold photos are lazy loaded. The mobile CSS keeps the hero photograph above the text and adjusts the alternating rows into a readable single column. Stock scenes remain illustrative, not actual shop jobs or customer evidence.
+
+Local build checks passed for all five route files, unique metadata, internal navigation targets, image paths and dimensions, four unique homepage photos, the generated sitemap and 404 file, and JavaScript syntax. The form prevents submission and gives local-only confirmation; native required, type and pattern validation are present. A browser runtime was unavailable here, so interaction and visual checks at desktop and mobile sizes remain outstanding. This source revision is not deployed; publish after the Vercel daily deployment quota resets, then check live direct routes, unknown-route HTTP 404, menu, form, and mobile/desktop image cropping before marking complete.
+
 
 ## Homepage image audit — October 19, 2026
 
